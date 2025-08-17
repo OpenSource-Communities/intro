@@ -57,7 +57,7 @@ These platforms have played a crucial role in fostering the growth of open sourc
 
 ### The Rise of Corporate Involvement
 
-In recent years, there has been a significant increase in corporate involvement in open source projects. Many companies now recognize the value of open source and actively contribute to and support various projects. Some companies have even gone so far as to open source their own internal tools and technologies, such as [Google's TensorFlow](https://app.opensauced.pizza/s/tensorflow/tensorflow) and [Facebook's React](https://app.opensauced.pizza/s/facebook/react).
+In recent years, there has been a significant increase in corporate involvement in open source projects. Many companies now recognize the value of open source and actively contribute to and support various projects. Some companies have even gone so far as to open source their own internal tools and technologies, such as [Google's TensorFlow](https://opensource.google/projects/tensorflow) and [Facebook's React](https://opensource.fb.com/projects/react/).
 
 This increased corporate involvement has not only led to more resources and support for open source projects but has also helped to legitimize the open source movement and encourage wider adoption.
 
