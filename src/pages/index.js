@@ -10,7 +10,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={styles.heroContent}>
-        <h1 className={styles.heroTitle}>Open Source Education <span className={styles.heroTitleOS}>with OpenSauced</span></h1>
+        <h1 className={styles.heroTitleOS}>Open Source Education Path</h1>
         <p className={styles.heroSubtitle}>Empowering Your Open Source Journey: From First Contribution to Project Leadership</p>
       </div>
     </header>
@@ -19,14 +19,14 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout title="Home" description="Welcome to OpenSauced Education Path">
+    <Layout title="Home" description="Welcome to Open Source Education Path">
       <HomepageHeader />
       <main className={styles.main}>
         <div className="container">
           <div className={styles.cards}>
             <div className={styles.card}>
               <div className={styles.cardContent}>
-                <h3>Intro to Open Source Course</h3>
+                <h3>Intro to Open Source</h3>
                 <p>This course is designed to equip you with the skills and knowledge you need to contribute to open source projects. It offers engaging exercises to help you begin your journey towards becoming a successful contributor, and even provides an opportunity to get your first pull request merged.</p>
                 <Link className={styles.cardLink} to="/intro-to-oss">
                   Start the Intro to Open Source Course
