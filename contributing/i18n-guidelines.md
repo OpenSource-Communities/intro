@@ -8,7 +8,7 @@ At the moment, we are unable to offer translation maintenance.
 
 However, we know some contributors are willing to translate and help our courses to reach a broader audience. We value these contributions! ✨
 
-Please keep reading if you want to translate the [Open Source Education Path with OpenSauced](https://opensauced.pizza/learn/#/).
+Please keep reading if you want to translate the [Open Source Education Path](https://opensauced.pizza/learn/#/).
 
 ## Why Translating Our Courses
 
@@ -27,7 +27,7 @@ Here are some benefits of translating our courses:
 
 ### 1. Forking the Repository
 
-First, you must fork the [intro repository](https://github.com/open-sauced/intro). See the official GitHub docs for [forking a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
+First, you must fork the [intro repository](https://github.com/OpenSource-Communities/intro). See the official GitHub docs for [forking a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
 
 ### 2. Creating a Branch for the Translation
 

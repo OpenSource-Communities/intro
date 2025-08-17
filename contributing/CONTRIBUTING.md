@@ -1,6 +1,6 @@
 # Contributing to OpenSauced Intro
 
-Contributions are always welcome, no matter how large or small. Before contributing, please read the [Code of Conduct](https://opensauced.pizza/docs/contributing/code-of-conduct/) and follow the directions in this guide.
+Contributions are always welcome, no matter how large or small. Before contributing, please read the [Code of Conduct](https://github.com/OpenSource-Communities/.github/blob/main/CODE_OF_CONDUCT.md) and follow the directions in this guide.
 
 ## Recommended Communication Style
 
@@ -11,7 +11,7 @@ Contributions are always welcome, no matter how large or small. Before contribut
 
 ## Issues
 
-- When you contribute to the project for the first time, please consider checking the [bug](https://github.com/open-sauced/intro/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%90%9B+bug%22), [good first issue](https://github.com/open-sauced/intro/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), or [beginners only](https://github.com/open-sauced/intro/issues?q=is%3Aissue+is%3Aopen+label%3A%22beginners+only%22) labels.
+- When you contribute to the project for the first time, please consider checking the [bug](https://github.com/OpenSource-Communities/intro/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%90%9B+bug%22), [good first issue](https://github.com/OpenSource-Communities/intro/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), or [beginners only](https://github.com/OpenSource-Communities/intro/issues?q=is%3Aissue+is%3Aopen+label%3A%22beginners+only%22) labels.
 
 - If you wish to work on an open issue, please comment with `.take`, and it will be assigned to you. <br> If an issue is not assigned, it is assumed to be available for anyone to work on. So, assign yourself to an issue **before** beginning work to avoid conflicts.
 
@@ -19,9 +19,9 @@ Contributions are always welcome, no matter how large or small. Before contribut
 
 - Do you spot a bug in any of our courses? Or do you have an idea for enhancing our courses and want to add a section or a chapter to a course?
 
-  You can create an issue and fill out our issue form to address it. But our maintainers need to triage the issue before you can work on it. If you wish to work on the issue you submitted, please inform and tag the `@open-sauced/docs` team in the comment.
+  You can create an issue and fill out our issue form to address it. But our maintainers need to triage the issue before you can work on it. If you wish to work on the issue you submitted, please inform and tag the maintainers in the comment.
 
-You can always ask for help in our [Community](https://github.com/open-sauced/intro/discussions) if you get stuck while working on your changes or need clarification.
+You can always ask for help in our [Community](https://github.com/OpenSource-Communities/intro/discussions) if you get stuck while working on your changes or need clarification.
 
 ## Pull Requests (PRs)
 
@@ -65,7 +65,7 @@ We actively welcome your PRs. However, before working on changes, you must ensur
 
 ### Setup the Project Locally
 
-1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the [intro repository](https://github.com/open-sauced/intro) to your own GitHub account.
+1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the [intro repository](https://github.com/OpenSource-Communities/intro) to your own GitHub account.
 2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the forked repository to your local machine.
 
    ```bash
@@ -194,7 +194,7 @@ Follow these steps to add new chapters to the sidebar:
 1. Open the `sidebars.js` file located on the root.
 2. **Add the new chapter link**.
 
-   - Insert your new chapter in the `items` array of the related course. If you're unsure where best to put it, you can comment on the issue and tag the `@open-sauced/docs` maintainers to ask for help.
+   - Insert your new chapter in the `items` array of the related course. If you're unsure where best to put it, you can comment on the issue and tag the maintainers to ask for help.
    - Use the below format to add the link to the new chapter:
 
      ```text
@@ -263,7 +263,7 @@ This is an `inline code`.
 Create links using square brackets (`[]`) for the link text and parentheses (`()`) for the URL.
 
 ```markdown
-[Open Source Education Path with OpenSauced](https://opensauced.pizza/learn/)
+[Open Source Education Path](https://opensauced.pizza/learn/)
 ```
 
 ### 5. Images
