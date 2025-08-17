@@ -1,6 +1,6 @@
 {
-    "name": "@open-sauced/intro.opensauced.pizza",
-    "version": "0.0.0",
+    "name": "@OpenSource-Communities/open-source-education-path",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "docusaurus": "docusaurus",
