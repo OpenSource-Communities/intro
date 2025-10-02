@@ -118,7 +118,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Open Source Education Path Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Open Source Communities. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,
