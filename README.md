@@ -18,7 +18,7 @@ We welcome contributions from everyone! All contributors are required to abide b
 
 ## **💬 Community**
 
-Do you have questions or need help? Join our [Community](https://github.com/orgs/OpenSource-Communities/discussions).
+Do you have questions or need help? Join our [Community](https://github.com/orgs/OpenSource-Communities/discussions/4).
 
 ## **⚖️ LICENSE**
 
