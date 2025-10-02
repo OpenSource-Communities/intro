@@ -5,7 +5,7 @@ sidebar_label: "Building Your Team"
 keywords: ["building open source team", "how to build an open source team", "assembling an open source maintainer team", "building an open source maintainer team", "finding new maintainers for open source projects", "identifying potential open source maintainers using OpenSauced", "best practices for onboarding new open source team members", "types of open source maintainers team", "triage team", "maintainer team", "documentation team", "onboarding open source maintainers", "GitHub permissions for open source teams", "offboarding open source team members", "open source maintainer recruitment strategies", "open source maintainers", "Open Source", "Open Source Community"]
 ---
 
-Managing an open source project requires clear communication, empathy, and technical understanding. You might find that initially, you can do all or most of the work by yourself. That's great! If you want your project to grow and thrive, cultivating a diverse, motivated, and effective team around you can help you do that. This chapter looks at how to collaborate with your team effectively and offers guidance on identifying, onboarding, and empowering your open source squad.
+Managing an open source project requires clear communication, empathy, and technical understanding. You might find that, initially, you can do all or most of the work by yourself—and that's great! However, if you want your project to grow and thrive, cultivating a diverse, motivated, and effective team around you is essential. This chapter looks at how to collaborate with your team effectively and offers guidance on identifying, onboarding, and empowering your open source squad.
 
 ## Types of Teams
 
@@ -45,19 +45,19 @@ Sometimes, the Maintainer Team and the Core Team are the same. Generally speakin
 
 ## Assembling Your A-Team: Adding New Members
 
-Now that you understand a little bit about teams, let's look at how to identify new members for your team.
+Now that you understand a bit about teams, let's look at how to identify new members for your team.
 
 ### Recognizing the Need
 
-Just like a superhero team expands to face escalating threats, your project might reach a point where additional team members are needed. This could be when the workload starts to overwhelm you (solo maintainer) or your existing team or when you are taking on complex challenges that require specialized expertise. Identifying these challenging points is important for ensuring your project's continued momentum.
+Just like a superhero team expands to face escalating threats, your project might reach a point where additional team members are needed. This could be when the workload starts to overwhelm you (as a solo maintainer or as a team), or when you are taking on complex challenges that require specialized expertise. Identifying these challenging points is important for ensuring your project's continued momentum.
 
 ### Scouting for Superpowers
 
-Your search for new teammates should be deliberate and thoughtful. Look for contributors who have consistently shown commitment and skills through active involvement in your project. Their contributions to issues, pull requests, and community discussions can help you determine if they understand the project and your vision. Other things to consider are having enthusiasm, a collaborative spirit, and alignment with your project's goals. Open source projects thrive on passion and shared purpose.
+Your search for new teammates should be deliberate and thoughtful. Look for contributors who have consistently shown commitment and skills through active involvement in your project. Their contributions to issues, pull requests, and community discussions can help you determine if they understand the project and your vision. Other things to consider include enthusiasm, a collaborative spirit, and alignment with your project's goals. Open source projects thrive on passion and shared purpose.
 
 ### Inviting Your Team
 
-Once you've identified potential team members, extend a formal invitation. This public acknowledgment of their contributions not only shows your appreciation but also serves as an inspiration to other community members. Platforms like GitHub offer streamlined mechanisms for adding team members, making it a seamless process to welcome your new team members officially.
+Once you've identified potential team members, extend a formal invitation. This public acknowledgment of their contributions not only shows your appreciation but also serves as an inspiration to other community members. Platforms like GitHub offer streamlined mechanisms for adding team members, making it a seamless process to officially welcome your new team members.
 
 ## Granting Team Permissions
 
@@ -133,31 +133,31 @@ Check out [this guide](https://docs.github.com/en/organizations/organizing-membe
 
 ## Onboarding New Team Members
 
-To ensure that your new team members are set up for success, it's important to have an onboarding process. This will help them to understand their responsibilities, the project's goals, and how they can contribute.
+To ensure that your new team members are set up for success, it's important to have an onboarding process. This will help them understand their responsibilities, the project's goals, and how they can contribute.
 
 Here are some things to consider:
 
-- **Roles & Responsibilities:** Clearly define the team member's role and responsibilities. This will help them to understand what they're responsible for and what they can expect from you.
-- **Communication:** Establish clear communication channels and expectations. This will help to ensure that everyone is on the same page and that you're able to communicate effectively.
-- **Goals:** Clearly define the project's goals and how the team members can contribute. This will help them to understand how they can contribute to the project's success.
+- **Roles & Responsibilities:** Clearly define the team member's role and responsibilities. This will help them understand what they're responsible for and what they can expect from you.
+- **Communication:** Establish clear communication channels and expectations. This will help ensure that everyone is on the same page and that you're able to communicate effectively.
+- **Goals:** Clearly define the project's goals and how the team members can contribute. This will help them understand how they can contribute to the project's success.
 - **Timeline:** Set clear expectations for the timeline. This will help them understand what to do and the deadlines.
 
-One way to onboard your new team members is to have clear guidelines and include them in your documentation. If you need an idea for creating one, you can look at the [OpenSauced Community Maintainers Guidelines](https://opensauced.pizza/docs/contributing/opensauced-maintainers-guide/community-maintainers-guide/) or read [this blog post](https://dev.to/opensauced/the-missing-piece-why-your-project-needs-a-maintainer-onboarding-process-np0).
+One way to onboard your new team members is to have clear guidelines and include them in your documentation. If you need ideas for creating one, you can look at the [OpenSauced Community Maintainers Guidelines](https://opensauced.pizza/docs/contributing/opensauced-maintainers-guide/community-maintainers-guide/) or read [this blog post](https://dev.to/opensauced/the-missing-piece-why-your-project-needs-a-maintainer-onboarding-process-np0).
 
 ## Keeping Track of Your Team
 
-As your team grows, it's important to keep track of your team's participation and contributions. Depending on the number of people on your team, consider creating a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/) to keep track of your team's contributions. This will allow you to see who is contributing to your project and how often, and it will help you identify when it's time to remove someone from your team.
+As your team grows, it's important to keep track of your team's participation and contributions. Depending on the number of people on your team, consider creating a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/) to keep track of your team's contributions. This will allow you to see who is contributing to your project and how often, and help you identify when it's time to remove someone from your team.
 
 ![Team sync GIF](../_assets/gifs/team-sync.gif)
 
 ## Saying Farewell: Handling Team Departures
 
-As time passes and people's lives change, you'll find that even the most dedicated teams might face departures. Inactivity, discord with project values, or mutual agreement can lead to changes in your team. It's important to approach these situations with respect and understanding. Privately communicate the reasons behind the decision, acknowledge the individual's contributions, and express gratitude for their time and effort. Remember, fostering a positive and supportive environment, even during departures, contributes to the overall well-being of your project community.
+As time passes and people's lives change, you'll find that even the most dedicated teams might face departures. Inactivity, discord with project values, or mutual agreement can lead to changes in your team. It's important to approach these situations with respect and understanding. Privately communicate the reasons behind the decision, acknowledge the individual's contributions, and express gratitude for their time and effort. Remember, fostering a positive and supportive environment—even during departures—contributes to the overall well-being of your project community.
 
 Check out [this guide](https://docs.github.com/en/organizations/organizing-members-into-teams/removing-organization-members-from-a-team) on GitHub for removing the person from your team.
 
 ## Conclusion
 
-Remember, the team is there to support you and the project and to help you achieve your goals. As you grow your team, keep in mind that you're not just adding people to your project; you're adding people to your community. Make sure you're adding people who align with your project's values and goals and who will be a positive addition to your community.
+Remember, the team is there to support you and the project, and to help you achieve your goals. As you grow your team, keep in mind that you're not just adding people to your project; you're adding people to your community. Make sure you're adding people who align with your project's values and goals and who will be a positive addition to your community.
 
 In the [next chapter](metrics-and-analytics.md), you will learn how metrics and analytics are helpful for new maintainers.

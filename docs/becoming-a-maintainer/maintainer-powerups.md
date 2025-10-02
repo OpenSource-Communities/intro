@@ -5,9 +5,9 @@ sidebar_label: "Maintainer Powerups"
 keywords: ["maintainer powerups", "GitHub tools for open source maintainers", "open source maintainers productivity", "GitHub Actions", "GitHub Actions for open source projects", "types of GitHub Actions for open source projects", "automating open source maintainers tasks", "GitHub", "GitHub tools", "open source maintainers", "Open Source", "Open Source Community"]
 ---
 
-Maintainers have a variety of daily tasks. You often juggle triaging new issues, reviewing pull requests, testing changes, and managing and moderating the community, such as welcoming new contributors and thanking contributors for their contributions. Most of the time, you are expected to respond to these tasks promptly. Sometimes, these never-ending tasks take too much time and are overwhelming. It would help if you were efficient in what you do.
+Maintainers have a variety of daily tasks. You often juggle triaging new issues, reviewing pull requests, testing changes, and managing and moderating the community, such as welcoming new contributors and thanking them for their contributions. Most of the time, you are expected to respond to these tasks promptly. Sometimes, these never-ending tasks take too much time and can be overwhelming. It helps to be efficient in what you do.
 
-The good news is that some tools and features on GitHub allow you to automate tasks, which can help you save time and make your work lighter. In this chapter, we will talk about these maintainer power ups from GitHub.
+The good news is that some tools and features on GitHub allow you to automate tasks, which can help you save time and make your work lighter. In this chapter, we will talk about these maintainer power-ups from GitHub.
 
 ## GitHub Actions
 
@@ -19,11 +19,11 @@ Setting up actions to automate these tasks will save you time responding to cont
 
 ### Types of Actions
 
-There are many types of actions that you can set up for your project, depending on what you need. Below are some GitHub Actions that you usually find across repositories:
+There are many types of actions that you can set up for your project, depending on what you need. Below are some GitHub Actions that you commonly find across repositories:
 
 #### Linter
 
-Most open source repositories have linters that run on each pull request. Linter is a tool for detecting potential errors and maintaining a consistent code style in a project. [Super-Linter](https://github.com/marketplace/actions/super-linter) is one of the most used actions. This action can help you maintain code quality and achieve a more readable and consistent style.
+Most open source repositories have linters that run on each pull request. A linter is a tool for detecting potential errors and maintaining a consistent code style in a project. [Super-Linter](https://github.com/marketplace/actions/super-linter) is one of the most used actions. This action can help you maintain code quality and achieve a more readable and consistent style.
 
 #### Deployed Previews
 
@@ -39,7 +39,7 @@ Code scanning is a tool for detecting security vulnerabilities, possible bugs, a
 
 #### Testing
 
-Setting up actions to run tests is helpful to ensure your app functions and performs as it should and that no regressions occur with new changes. [Cypress GitHub Action](https://docs.cypress.io/guides/continuous-integration/github-actions) is one of the examples of actions for E2E testing. You can also check out [Is Website Vulnerable](https://github.com/marketplace/actions/is-website-vulnerable) to find publicly known security vulnerabilities in JavaScript libraries' websites or [Step CI Action](https://github.com/marketplace/actions/step-ci-action) for API quality assurance.
+Setting up actions to run tests is helpful to ensure your app functions and performs as it should and that no regressions occur with new changes. [Cypress GitHub Action](https://docs.cypress.io/guides/continuous-integration/github-actions) is one example of an action for E2E testing. You can also check out [Is Website Vulnerable](https://github.com/marketplace/actions/is-website-vulnerable) to find publicly known security vulnerabilities in JavaScript libraries' websites or [Step CI Action](https://github.com/marketplace/actions/step-ci-action) for API quality assurance.
 
 ### Creating and Customizing Actions
 
@@ -47,7 +47,7 @@ You can search for available GitHub Actions on the [GitHub Marketplace](https://
 
 Brian Douglas, the founder of OpenSauced, created [Take Action](https://github.com/marketplace/actions/contributor-takes-action). This action allows contributors to assign themselves to an issue by typing the `.take` command in the issue's comment, allowing maintainers to focus on more important tasks than assigning issues.
 
-However, we want contributors only able to take issues that have passed our triage or are not meant to be worked on by the core team. So, we create the [Triage Action](https://github.com/open-sauced/app/blob/beta/.github/workflows/triage.yml) that will block the Take Action whenever a `needs triage` or `core team work` label exists.
+However, we want contributors to only be able to take issues that have passed our triage or are not meant to be worked on by the core team. So, we created the [Triage Action](https://github.com/open-sauced/app/blob/beta/.github/workflows/triage.yml) that will block the Take Action whenever a `needs triage` or `core team work` label exists.
 
 You can read more about GitHub Actions and how to create one in [the official documentation](https://github.com/features/actions).
 
@@ -96,15 +96,15 @@ Visit the [GitHub CLI repository](https://github.com/cli/cli#installation) for i
 
 Have you ever found yourself in a situation where you're reviewing pull requests or triaging issues, but you can't understand what's happening because contributors didn't provide sufficient information? Or, have you had to close an issue or pull request because the description, screenshot, or other crucial information was missing?
 
-The good news is that you can address these problems by creating issue and pull request templates. These templates allow you to customize and standardize it to include necessary information. You can see them as guides for contributors to follow when writing an issue or pull request for your project. Creating templates saves time on triaging issues, reviewing pull requests, and ensuring you get all the information you need from your contributors. Additionally, future contributors can benefit from these templates by understanding the history of changes made, which can help them debug or understand the code involved.
+The good news is that you can address these problems by creating issue and pull request templates. These templates allow you to customize and standardize the information you collect. You can see them as guides for contributors to follow when writing an issue or pull request for your project. Creating templates saves time on triaging issues, reviewing pull requests, and ensures you get all the information you need from your contributors. Additionally, future contributors can benefit from these templates by understanding the history of changes made, which can help them debug or understand the code involved.
 
 You can learn more about [configuring issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) and [creating a pull request template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) on the official GitHub documentation.
 
 ## Saved Replies
 
-Sometimes, you repeatedly write the same reply to issues or pull requests. Clear communication between maintainers and contributors is crucial. So, when you write all comments manually, your messages will no longer be consistent and may be unclear. You can create saved replies when you frequently respond to issues and pull requests with the same comments.
+Sometimes, you repeatedly write the same reply to issues or pull requests. Clear communication between maintainers and contributors is crucial. When you write all comments manually, your messages may become inconsistent and unclear. You can create saved replies when you frequently respond to issues and pull requests with the same comments.
 
-[Saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/about-saved-replies) allow you to create a reusable response to issues, pull requests, and discussions and use it across repositories. It will save you time responding to contributors while keeping the consistency of your message. You can always modify your replies if necessary.
+[Saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/about-saved-replies) allow you to create a reusable response to issues, pull requests, and discussions and use it across repositories. It will save you time responding to contributors while keeping your messages consistent. You can always modify your replies if necessary.
 
 Read the GitHub documentation for complete instructions about how to [create saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/creating-a-saved-reply).
 
@@ -112,7 +112,7 @@ Read the GitHub documentation for complete instructions about how to [create sav
 
 ## Code Owners
 
-Most of the time, contributors don't know the maintainers of a project, so they don't know who to reach out to review their pull requests. When they create a pull request, they usually leave a comment without tagging anyone, like, "Can you please review my PR?" Without being tagged, maintainers don't get notified about this new pull request and comment, causing it to be missed from the radar. Adding the CODEOWNERS file to the repository will help you to automate and tackle this issue.
+Most of the time, contributors don't know the maintainers of a project, so they don't know who to reach out to for a review of their pull requests. When they create a pull request, they usually leave a comment without tagging anyone, like, "Can you please review my PR?" Without being tagged, maintainers don't get notified about this new pull request and comment, causing it to be missed. Adding the CODEOWNERS file to the repository will help you automate and tackle this issue.
 
 From the [official GitHub documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners):
 
@@ -124,7 +124,7 @@ Here is an example of a [CODEOWNERS file](https://github.com/open-sauced/docs/bl
 * @open-sauced/docs
 ```
 
-This syntax means that the `@open-sauced/docs` team will be the default owner for everything in the repository and will automatically added as reviewers whenever someone creates a pull request.
+This syntax means that the `@open-sauced/docs` team will be the default owner for everything in the repository and will automatically be added as reviewers whenever someone creates a pull request.
 
 :::note
 
@@ -132,7 +132,7 @@ If you want to match two or more code owners with the same pattern, all the code
 
 :::
 
-There are some benefits to having this file in your repository:
+There are several benefits to having this file in your repository:
 
 - **Review request notification**
 
@@ -140,10 +140,10 @@ There are some benefits to having this file in your repository:
 
 - **Prevent contributors from manually adding reviewers**
 
-  Setting up the CODEOWNERS file prevents external contributors from manually adding reviewers because it automatically adds them. That way, contributors don't have to comment and tag anyone on the comment to review their pull request. It also helps you to stop them from adding non-maintainers — such as regular contributors — as reviewers.
+  Setting up the CODEOWNERS file prevents external contributors from manually adding reviewers because it automatically adds them. That way, contributors don't have to comment and tag anyone to review their pull request. It also helps prevent them from adding non-maintainers — such as regular contributors — as reviewers.
 
 - **Branch protection**
 
-  If you opt-in to "Require approval" and "Require review from Code Owners" to protect a branch, a certain number of code owners must approve any pull request before it can be merged into the protected branch. This can reduce the chance of merging pull requests that can break production.
+  If you opt-in to "Require approval" and "Require review from Code Owners" to protect a branch, a certain number of code owners must approve any pull request before it can be merged into the protected branch. This can reduce the chance of merging pull requests that could break production.
 
-Now that you understand the basics of what maintainers do and the tools, the [next chapter](your-team.md) will teach you how to build your team.
+Now that you understand the basics of what maintainers do and the tools available, the [next chapter](your-team.md) will teach you how to build your team.

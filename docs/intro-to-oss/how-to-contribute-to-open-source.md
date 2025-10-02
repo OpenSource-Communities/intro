@@ -25,111 +25,93 @@ keywords:
   ]
 ---
 
-In this chapter, we'll guide you through the process of how to contribute to open source.
+In this chapter, we will guide you through the process of contributing to open source.
 
 ## Finding Projects to Work On
 
 One of the first challenges you might face when learning how to contribute to open source is finding a project to contribute to. Here are some tips to help you discover projects that align with your interests and skills:
 
-1. **Browse GitHub and GitLab**: Both GitHub and GitLab host a vast number of open source projects. You can use their search functionality to find projects based on specific keywords, programming languages, or topics.
+1. **Browse GitHub and GitLab**: Both GitHub and GitLab host a vast number of open source projects. Use their search functionality to find projects based on specific keywords, programming languages, or topics.
 
 2. **Follow your interests**: Think about the tools, frameworks, and libraries you use or are interested in learning more about. Many of these projects are open source and welcome contributions from the community.
 
-3. **Join open source communities**: There are numerous online communities, forums, and chat platforms dedicated to open source development. By joining these communities, you can connect with other developers, discover new projects, and find collaboration opportunities. In the [Community](https://github.com/orgs/open-sauced/discussions), for example, we share good first issues, cool GitHub projects, and issues we have open on our repositories.
+3. **Join open source communities**: Numerous online communities, forums, and chat platforms are dedicated to open source development. By joining these communities, you can connect with other developers, discover new projects, and find collaboration opportunities. For example, in the [Community](https://github.com/orgs/open-sauced/discussions), we share good first issues, cool GitHub projects, and open issues in our repositories.
 
-4. **Leverage OpenSauced**: [OpenSauced](https://opensauced.pizza/) is a platform that helps developers discover and contribute to open source projects. By using OpenSauced, you can find projects that align with your interests, skills, and goals.
+4. **Leverage OpenSauced**: [OpenSauced](https://opensauced.pizza/) is a platform that helps developers discover and contribute to open source projects. Using OpenSauced, you can find projects that align with your interests, skills, and goals.
 
 :::tip
-
-To understand how to contribute in open source, it’s important to start by familiarizing yourself with the project’s guidelines and community standards.
-
+To effectively contribute to open source, start by familiarizing yourself with the project’s guidelines and community standards.
 :::
 
 ### Discovering Open Source with OpenSauced
 
 OpenSauced is a powerful tool for finding open source projects to contribute to. To get started with OpenSauced, follow these steps:
 
-1. **Sign up for an account**: Visit https://www.opensauced.pizza/ and sign up for an account using your GitHub credentials.
+1. **Sign up for an account**: Visit [OpenSauced](https://www.opensauced.pizza/) and sign up using your GitHub credentials.
 
    ![OpenSauced signup](../_assets/images/opensauced-signup.png)
 
-   During the signup process, you'll be asked to pick some interests and set your timezone. This will help OpenSauced recommend projects that align with your interests and schedule.
+   During the signup process, you will be asked to pick some interests and set your timezone. This helps OpenSauced recommend projects that align with your interests and schedule.
 
-2. **Explore dashboard**: Once you've signed up, you'll be taken to your dashboard, where you can view your current projects, goals, and contributions. Clicking "Explore" in the header will take you to the Explore dashboard where you can browse projects based on your interests and skills.
+2. **Explore the dashboard**: Once signed up, navigate to your dashboard to view your current projects, goals, and contributions. Clicking "Explore" in the header will take you to the Explore dashboard, where you can browse projects based on your interests and skills.
 
-3. **Search for projects**: In the Explore dashboard, you can see a list of repositories and their relevant activity levels and engagement levels that are currently trending. You can also search for projects by typing in the search bar. You can search for projects by name, description, or topic and use this tool to find something that resonates with you.
+3. **Search for projects**: In the Explore dashboard, you can view a list of repositories with their activity and engagement levels. Use the search bar to find projects by name, description, or topic.
 
    ![Explore dashboard](../_assets/images/opensauced-explore.png)
 
-4. **Save projects to your Insights pages**: When you find projects you're interested in, you can add them to "Insights" pages that give you more details about the activity over the projects. Or, if you'd rather just dive in and contribute, you can skip to the next step.
+4. **Save projects to your Insights pages**: When you find projects of interest, add them to your "Insights" pages for detailed activity tracking. Alternatively, dive straight into contributing.
 
-5. **Start contributing**: When you click on the name of a repository, you'll be taken to its GitHub page, where you can explore issues that are open and ready for contribution, knowing that the community around this project is active and your contributions will be welcomed.
+5. **Start contributing**: Clicking on a repository name will take you to its GitHub page, where you can explore open issues ready for contribution. Active communities welcome your contributions.
 
-Understanding how to contribute to open source involves not only coding but also participating in discussions, reporting bugs, and improving documentation. By using OpenSauced, you can streamline the process of finding open source projects to work on and focus on contributing to the projects that align with your interests and goals.
+Contributing to open source involves more than just coding. It includes participating in discussions, reporting bugs, and improving documentation. OpenSauced streamlines the process of finding projects that align with your interests and goals.
 
 ## Onboarding in a New Project
 
-When you're interested in contributing to a new open source project, it's important to familiarize yourself with the project's guidelines, conventions, and workflow and take the initiative to onboard yourself.
+When contributing to a new open source project, it is essential to familiarize yourself with the project’s guidelines, conventions, and workflow. Here are some tips to onboard successfully:
 
-Here are some tips to help you onboard successfully:
+1. **Read the project’s documentation**: Review the README file, contributing guidelines, and code of conduct to understand the project’s goals, requirements, and expectations for contributors.
 
-1. **Read the project's documentation**: Read the README file, contributing guidelines, and code of conduct to familiarize yourself with the project. They will help you understand the project's goals, requirements, and expectations for contributors.
+2. **Start small**: Begin with manageable tasks, such as fixing bugs, adding tests, or updating documentation. This helps you get familiar with the codebase and workflow without feeling overwhelmed.
 
-2. **Start small**: When you're new to a project, it's a good idea to start with small, manageable tasks, such as fixing bugs, adding tests, or updating documentation. This will help you become familiar with the codebase and development workflow without getting overwhelmed.
+3. **Join the open source community**: Many projects have online communities, forums, or chat platforms where developers can ask questions, share knowledge, and collaborate. Connecting with other contributors can help you learn and get support.
 
-3. **Join the open source community**: Many open source projects have online communities, forums, or chat platforms where developers can ask questions, share knowledge, and collaborate. To learn how to contribute to open source, you can connect with other contributors, learn from their experiences, and get help with any issues you encounter.
+4. **Ask for help**: If you need clarification or encounter a problem, don’t hesitate to ask for help. Open source communities are generally supportive and welcoming.
 
-4. **Ask for help**: If you need clarification or encounter a problem, don't hesitate to ask for help. Open source communities are generally supportive and welcoming; other contributors will gladly assist you.
-
-5. **Be patient and persistent**: Onboarding in a new project can be challenging, especially if you're new to open source development. Be patient, and don't be discouraged by setbacks or mistakes. You'll become more comfortable and confident in your contributions with persistence and practice.
+5. **Be patient and persistent**: Onboarding can be challenging, especially if you are new to open source. Stay patient and don’t be discouraged by setbacks. With practice, you will gain confidence in your contributions.
 
 ## Getting Started With Contributing
 
-So, you've onboarded yourself in the project. Now, you can prepare to contribute by following these steps:
+Once you have onboarded yourself to a project, follow these steps to prepare for contributing:
 
 ### 1. Read the Documentation
 
-We touched on this briefly in the previous section. But it's worth revisiting because it's important to read the project's documentation thoroughly before you start contributing.
+We briefly touched on this earlier, but it is worth revisiting. Thoroughly read the project’s documentation before contributing. Start with the README to understand the project’s purpose, tech stack, and setup instructions.
 
-Start by reading the README and familiarizing yourself with the project. A README contains an introduction to the project, such as how it works, its purpose, the tech stacks it uses, and how to set up and run the local environment.
+Next, review the contributing guidelines, often found in a CONTRIBUTING file or the README. These guidelines outline how to claim issues, create pull requests, and communicate effectively. For example, check out the [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/).
 
-Once you're familiar with the project and interested in contributing, don't jump in without reading the contributing guidelines. These guidelines are in the CONTRIBUTING file at the project's root. If the file is unavailable, you can find them in the README.
-
-Every project has different contributing rules. These rules are written in the contributing guidelines, which contain information on how to claim and work with issues, create pull requests, and preferable methods of communication. For example, you can look at the [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/).
-
-Some projects also have conventions, such as code and Markdown style, how to write commit messages, pull requests and issue titles, and so on. You might find these in their style guide or contributing guidelines.
+Some projects also have conventions for code style, commit messages, and pull request titles. These may be detailed in a style guide or contributing guidelines.
 
 :::tip
-
-Read the contributing guidelines carefully to understand how the project receives contributions. Following these guidelines will make your contribution process smoother.
-
+Carefully read the contributing guidelines to ensure a smooth contribution process.
 :::
 
 ### 2. Find or Create an Issue
 
-After reading the documentation, you can start looking for issues labeled as "good first issue" or "beginner-friendly" that are suitable for your skill level. When choosing which issues to work on, consider your interests, skill level, and available time.
+After reading the documentation, look for issues labeled "good first issue" or "beginner-friendly" that match your skill level. Consider your interests, skills, and available time when choosing an issue.
 
-Issues can be seen as proposals for changes. Suppose you want to report a bug or have ideas for a feature or improvement of the project or its documentation and want to propose them. In that case, you can create an issue to propose your intention. Read [this blog post](https://dev.to/opensauced/streamline-your-contributions-mastering-issue-forms-and-pr-templates-36j5) to learn how to fill in issue forms.
+If you want to propose a bug fix, feature, or improvement, create an issue to outline your intention. Read [this blog post](https://dev.to/opensauced/streamline-your-contributions-mastering-issue-forms-and-pr-templates-36j5) to learn how to fill out issue forms.
 
-In open source, it is crucial to accompany a pull request with an issue for several reasons:
+Accompanying a pull request with an issue is crucial for several reasons:
 
-- **Context and Discussion**: Giving context to your proposal and discussing it with the maintainers can help to ensure that the proposed change is aligned with the project's goals, architecture, and roadmap. This discussion helps set clear expectations and increases the chance of your pull request being accepted.
-
-- **Documentation and Tracking**: Issues act as a form of documentation, providing a historical record of the identified problem, proposed solution, and decision-making process behind the change. They help maintainers track the project's progress and prioritize tasks. At the same time, they also allow other contributors to understand the context and reasons behind the changes introduced in the pull request.
-
-- **Reducing Back-and-Forth Communication**: Discussing and agreeing upon the proposed changes in advance through the issue can reduce the back-and-forth communication during the pull request review process. This can save both your time and the maintainers' time.
-
-- **Avoiding Unnecessary Work**: Creating an issue allows maintainers to provide early feedback on the proposed change. They can advise if a similar issue exists, if the proposed change aligns with the project's goals, or if alternative approaches are preferable. This helps you avoid wasting time and effort working on something that may not be accepted because it conflicts with existing plans.
-
-- **Avoiding Spam Pull Requests**: Unsolicited (pull requests without an issue) and unwanted pull requests may be marked as spam because they're seen as introducing irrelevant, low-quality, or harmful changes to the project's codebase. Having your pull request marked as spam can lead to rejection, lost contribution opportunities, and potentially damage your reputation.
+- **Context and Discussion**: Discussing your proposal with maintainers ensures alignment with the project’s goals.
+- **Documentation and Tracking**: Issues provide a historical record of the problem, solution, and decision-making process.
+- **Reducing Back-and-Forth Communication**: Agreeing on changes beforehand saves time during pull request reviews.
+- **Avoiding Unnecessary Work**: Early feedback helps you avoid working on changes that may not be accepted.
+- **Preventing Spam Pull Requests**: Unsolicited pull requests may be marked as spam, leading to rejection.
 
 ### 3. Ask to be Assigned to an Issue
 
-Certain projects may have specific rules regarding the assignment of issues. Some projects may require you to ask permission before working on an issue, while others allow you to assign yourself to an issue. That's why reviewing the project's contributing guidelines is essential to knowing how to claim issues.
-
-If the contributing guidelines do not state how to claim an issue, you can ask the maintainers to assign it to you. This will ensure no duplication and that your contribution is aligned with the project's goals and requirements.
-
-You can leave a comment on the issue, like, "Can I please be assigned to this issue?" When the maintainer has assigned you, you'll notice that your username is now under the "Assignees" section.
+Some projects require you to ask for permission before working on an issue. If the contributing guidelines do not specify how to claim an issue, leave a comment like, "Can I please be assigned to this issue?" Once assigned, your username will appear under the "Assignees" section.
 
 ![Issue assignees section on GitHub](../_assets/images/issue-assign.png)
 

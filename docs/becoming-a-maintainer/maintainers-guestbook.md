@@ -5,11 +5,11 @@ sidebar_label: "Maintainers Guestbook"
 keywords: ["maintainers guestbook", "list of new open source projects", "Becoming A Maintainer Course", "open source maintainers", "Open Source", "Open Source Community"]
 ---
 
-Congratulations on finishing the Becoming a Maintainer Course with OpenSauced. Welcome to our Maintainers Guestbook, where you can share your first project with us!
+Congratulations on finishing the Becoming a Maintainer Course with OpenSauced! Welcome to our Maintainers Guestbook, where you can share your first project with us.
 
 ## Projects List
 
-<!-- Use below format to list your repository -->
+<!-- Use the format below to list your repository: -->
 <!--
 - [project name](link to your repository) by [GitHub username](link to your GitHub profile)
 -->

@@ -13,7 +13,7 @@ To be successful in your open source journey, it's essential to familiarize your
 
 ## Prerequisites
 
-Before completing the following walkthrough, complete the following:
+Before starting the following walkthrough, complete these steps:
 
 - Create a [GitHub account](https://github.com/)
 - Download [VS Code](https://code.visualstudio.com/)
@@ -82,13 +82,13 @@ To practice using GitHub, we're going to walk through creating a repository, clo
 
 4. **Make changes and commit**: There should be one file in your repository: `README.md`. Inside that file, below `# practice-repository`, type 'hello world!' Once you have made changes, you can stage and commit them.
 
-   Open your terminal and make sure you are in the right directory. For example, my coding projects are inside of my `Projects` folder. Using my terminal, I would access this repository by running this command:
+   Open your terminal and make sure you are in the right directory. For example, my coding projects are inside my `Projects` folder. Using my terminal, I would access this repository by running this command:
 
    ```bash
    cd projects/practice-repository
    ```
 
-   Once in the correct repository, use the following commands to add the changes you made and write a commit message with a description of the changes:
+   Once in the correct repository, use the following commands to add the changes you made and write a commit message describing the changes:
 
    ```bash
    git add .

@@ -5,15 +5,15 @@ sidebar_label: "Becoming a Maintainer"
 keywords: ["README", "Becoming a Maintainer with OpenSauced", "becoming an open source maintainer", "open source course", "open source course for beginners", "maintaining open source projects course", "maintaining open source projects course for beginners", "open source maintainers", "Open Source", "Open Source Community"]
 ---
 
-Welcome to the Becoming a Maintainer Course with OpenSauced! This course is designed to provide you with an introduction to how to become an open source maintainer and guide you through the process of creating your open source project, working with contributors, and more.
+Welcome to the Becoming a Maintainer Course with OpenSauced! This course is designed to introduce you to becoming an open source maintainer and guide you through the process of creating your open source project, working with contributors, and more.
 
 ## Course Overview
 
-The course is divided into chapters, with each covering a different aspect of being an open source maintainer:
+The course is divided into chapters, each covering a different aspect of being an open source maintainer:
 
 ### [Intro: Understanding the Role of an Open Source Maintainer](intro.md)
 
-This chapter introduces the role of maintainers in open source, the benefits and the responsibilities of becoming a maintainer, and the challenges they face.
+This chapter introduces the role of maintainers in open source, the benefits and responsibilities of becoming a maintainer, and the challenges they face.
 
 ### [How to Setup Your Open Source Project](how-to-setup-your-project.md)
 
@@ -25,11 +25,11 @@ In this chapter, you'll learn how to manage open issues and pull requests in you
 
 ### [How to Communicate and Collaborate Effectively](communication-and-collaboration.md)
 
-This chapter will discuss onboarding new contributors, utilizing different communication channels for your open source project's community, and maintaining healthy communication.
+This chapter discusses onboarding new contributors, utilizing different communication channels for your open source project's community, and maintaining healthy communication.
 
 ### [How to Maintain Code Quality and Documentation](maintaining-code-quality.md)
 
-This chapter covers ways of maintaining code quality and documentation in your open source project.
+This chapter covers ways to maintain code quality and documentation in your open source project.
 
 ### [Building and Nurturing a Welcoming and Supportive Community](building-community.md)
 
@@ -37,7 +37,7 @@ In this chapter, you will learn how to build and nurture a welcoming and support
 
 ### [Maintainer Power Ups](maintainer-powerups.md)
 
-This chapter introduces tools on GitHub that you can utilize to help you save some time, make your work lighter, and boost your productivity as a maintainer.
+This chapter introduces tools on GitHub that you can use to save time, lighten your workload, and boost your productivity as a maintainer.
 
 ### [Building Your Open Source Dream Team](your-team.md)
 
@@ -49,7 +49,7 @@ This chapter will help you understand your project's metrics and guide you throu
 
 ### [Let's Get Practical: Starting Your Project](getting-practical.md)
 
-This chapter contains tutorials based on the previous chapters to help you prepare and launch your first open source project as a maintainer.
+This chapter contains tutorials based on the previous chapters to help you prepare for and launch your first open source project as a maintainer.
 
 ### Additional Information
 
@@ -60,7 +60,7 @@ As this is the beginning of your open source maintainer journey, we've also prov
 
 ## Getting Started
 
-If you are taking this course on our GitHub repository, navigate to the [`intro.md` file](intro.md) to start the course. Alternatively, visit the [Becoming a Maintainer with OpenSauced on the website](https://opensauced.pizza/learn/becoming-a-maintainer/) and start reading!
+If you are taking this course on our GitHub repository, navigate to the [`intro.md` file](intro.md) to start the course. Alternatively, visit [Becoming a Maintainer with OpenSauced on the website](https://opensauced.pizza/learn/becoming-a-maintainer/) and start reading!
 
 :::tip
 

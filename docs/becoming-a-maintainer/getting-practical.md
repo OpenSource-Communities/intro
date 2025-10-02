@@ -5,27 +5,27 @@ sidebar_label: "Getting Practical"
 keywords: ["getting practical by creating a new open source project", "creating an open source project", "creating an open source project tutorial", "creating an open source project for beginners", "creating a repository", "creating a README", "adding an open source license", "creating contributing guidelines for an open source project", "adding an open source code of conduct", "creating open source issue forms", "creating an open source pull request template", "promoting open source projects", "recognizing open source contributors", "monitoring open source projects", "open source maintainers", "Open Source", "Open Source Community"]
 ---
 
-Now that you've gone through the course and understand what it takes to be a successful maintainer, let's get practical and start your first open source project as a maintainer!
+Now that you've completed the course and understand what it takes to be a successful maintainer, let's get practical and start your first open source project as a maintainer!
 
 ## Prerequisites
 
-You'll need to have the following:
+You'll need the following:
 
 - A [GitHub Account](https://github.com)
 
 ## Choosing Your Project
 
-Sometimes, the hardest part is deciding what you will work on. Here are some general ideas to get you started:
+Sometimes, the hardest part is deciding what to work on. Here are some general ideas to get you started:
 
 - Identify a problem or need in the open source community.
 - Think about a topic you're passionate about that others might be interested in.
 - Think about a problem you've had to solve that others can benefit from.
 
-Don't think too hard about it now. You can always go back and update things later. For now, if you need a place to start, let's create a repository about your favorite open source resources.
+Don't overthink it for now. You can always go back and update things later. For now, if you need a place to start, let's create a repository for your favorite open source resources.
 
 ## Creating Your Repository
 
-We will walk through the steps to set up your project in GitHub. Although it's not the only way to get started with a project, it's the one we'll use in this demonstration.
+We'll walk through the steps to set up your project on GitHub. Although it's not the only way to start a project, it's the method we'll use in this demonstration.
 
 - Go to [GitHub](https://github.com) and sign in.
 - Click on the "+" icon in the upper right corner and select "New repository."
@@ -42,7 +42,7 @@ If you're using our starter idea, you could use the following:
 
 ## Adding Repository Documentation
 
-Now that you have the repository, you can either edit it directly in GitHub or clone the project and work on it locally. We previously learned about how to create detailed READMEs, contributing guides, and codes of conduct in "[How to Setup Your Open Source Project](how-to-setup-your-project.md)". If you need a reminder, take a look back at that chapter.
+Now that you have the repository, you can either edit it directly on GitHub or clone the project and work on it locally. We previously learned how to create detailed READMEs, contributing guides, and codes of conduct in "[How to Setup Your Open Source Project](how-to-setup-your-project.md)". If you need a reminder, take a look back at that chapter.
 
 ### Creating Your README
 
@@ -77,7 +77,7 @@ Guide on how to use the project, including any configuration steps or basic exam
 
 ## Contributing to the Project
 
-General instructions on how to submit contributions to the project with a link to your CONTRIBUTING.md file. Also, include information on how to engage with the community and maintainers.
+General instructions on how to submit contributions to the project, with a link to your CONTRIBUTING.md file. Also, include information on how to engage with the community and maintainers.
 
 ## Acknowledgments
 
@@ -90,11 +90,11 @@ State the license under which the project is released and provide a link to the 
 
 ### Adding a License
 
-You should have initialized your project with a license, but if you did not, you can add a license to your project by creating a new file named `LICENSE` in the root of your repository. You can use the [Choose a License](https://choosealicense.com/) website to help you select the right license for your project.
+You should have initialized your project with a license, but if you did not, you can add one by creating a new file named `LICENSE` in the root of your repository. You can use the [Choose a License](https://choosealicense.com/) website to help you select the right license for your project.
 
 ### Setting Up Contributing Guidelines
 
-Your project will likely have similar contribution guidelines to other projects. You can follow these steps to create guidelines and provide a template. However, if you need a specific example, you can always refer to the [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/). Feel free to use those guidelines and update them as you see fit for your project.
+Your project will likely have similar contribution guidelines to other projects. You can follow these steps to create guidelines and use the provided template. If you need a specific example, you can always refer to the [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/). Feel free to use those guidelines and update them as you see fit for your project.
 
 - [ ] Create a new file named `CONTRIBUTING.md` in the root of your repository.
 - [ ] Outline the process for submitting issues and pull requests.
@@ -145,15 +145,15 @@ Thank you for contributing to [Project Name]!
 
 ### Setting Up a Code of Conduct
 
-It's essential to have a code of conduct to ensure that everyone feels welcome and safe in your project. There are two ways to add one to your project:
+It's essential to have a code of conduct to ensure that everyone feels welcome and safe in your project. There are two ways to add one:
 
-1. **Use a template**. GitHub provides common code of conduct templates to help you set one up quickly. You can read [the instructions on their docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project#adding-a-code-of-conduct-using-a-template) to add one to your project.
+1. **Use a template**. GitHub provides common code of conduct templates to help you set one up quickly. You can read [the instructions in their docs](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project#adding-a-code-of-conduct-using-a-template) to add one to your project.
 
-2. **Add manually**. If you want to copy or adapt from other codes of conduct, you need to add your code of conduct manually by following these steps:
+2. **Add manually**. If you want to copy or adapt from other codes of conduct, you can add your code of conduct manually by following these steps:
 
-   - [ ] Create a new file named `CONTRIBUTING.md` in the root of your repository.
-   - [ ] Copy and paste the code of conduct you'd like to use. We recommend using the [Contributor Covenant](https://www.contributor-covenant.org/).
-   - [ ] Add a link to the code of conduct in your README and CONTRIBUTING files.
+  - [ ] Create a new file named `CODE_OF_CONDUCT.md` in the root of your repository.
+  - [ ] Copy and paste the code of conduct you'd like to use. We recommend using the [Contributor Covenant](https://www.contributor-covenant.org/).
+  - [ ] Add a link to the code of conduct in your README and CONTRIBUTING files.
 
    :::note
    
@@ -334,8 +334,8 @@ body:
 
   ![create issue](../_assets/images/create-issue.png)
 
-- Select the type of issue you want to create. In this example, we'll select Feature Request.
-- Write your issue. If you're following along the example, we'll write a feature request for a new resource:
+- Select the type of issue you want to create. In this example, we'll select "Feature Request."
+- Write your issue. If you're following along with the example, we'll write a feature request for a new resource:
 
   ```markdown
   **Type of feature:** 🍕 Feature
@@ -345,7 +345,7 @@ body:
   **Contributing Docs:** I agree to follow this project's Contribution Docs.
   ```
 
-- Once you've completed the issues, click "Submit new issue."
+- Once you've completed the issue, click "Submit new issue."
 
   ![feature-form.png](../_assets/images/feature-form.png)
 
@@ -362,7 +362,7 @@ Now that you have your project set up, it's time to promote it! Here are some id
 
 ### Recognizing Contributions
 
-In order to maintain a healthy project where contributors feel valued, it's important to recognize contributions. Here are some ways to do that:
+To maintain a healthy project where contributors feel valued, it's important to recognize contributions. Here are some ways to do that:
 
 - Use tools like the [All Contributors](https://allcontributors.org) bot to acknowledge different types of contributions.
 - Highlight contributors in your README or on your project's website.
@@ -378,7 +378,7 @@ Once your project is up and running, monitoring its health and activity is impor
 - Solicit feedback from users and contributors using discussions or surveys.
 - Reflect on the project's direction and make adjustments as necessary.
 
-You can learn more about how to create a successful project with OpenSauced with our [Maintainers Guide to OpenSauced](https://opensauced.pizza/docs/maintainers/maintainers-guide-to-open-sauced/).
+You can learn more about how to create a successful project with OpenSauced in our [Maintainers Guide to OpenSauced](https://opensauced.pizza/docs/maintainers/maintainers-guide-to-open-sauced/).
 
 ---
 
