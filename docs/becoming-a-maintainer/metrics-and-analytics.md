@@ -5,7 +5,7 @@ sidebar_label: "The Power of Metrics and Analytics"
 keywords: ["metrics and analytics for open source maintainers", "understanding types of metrics in open source", "setting open source project goals", "understanding and interpreting open source project data", "making open source project data-driven decisions with OpenSauced", "Workspace OpenSauced", "Repository Insights Page OpenSauced", "Contributor Insight Page OpenSauced", "open source maintainers", "Open Source", "Open Source metrics"]
 ---
 
-Understanding what's happening with your project and contributors as it grows can be challenging for new maintainers. Think of open source metrics and analytics like a compass and map in your maintainer journey. Understanding metrics for open source projects and your own project can help you to set goals, identify project needs, and understand your community. This chapter will guide you through understanding, leveraging, and making decisions based on these insights to create a thriving open source project.
+Understanding what's happening with your project and contributors as it grows can be challenging for new maintainers. Think of open source metrics and analytics as a compass and map in your maintainer journey. Understanding metrics for open source projects and your own project can help you set goals, identify project needs, and understand your community. This chapter will guide you through understanding, leveraging, and making decisions based on these insights to create a thriving open source project.
 
 ## Understanding Types of Open Source Metrics
 
@@ -13,15 +13,15 @@ Understanding what's happening with your project and contributors as it grows ca
 - **Community Metrics:** Community metrics shed light on the human element of the project, highlighting the growth, engagement, and overall health of the surrounding community.
 - **Project Health Metrics:** Project health metrics provide insights into the project's responsiveness, efficiency, and overall well-being.
 
-Considering a holistic approach to open source metrics can ensure you're not overly focused on one type to the detriment of others. For example, while high code quality is important, it should be balanced with strong community engagement to ensure a sustainable project future.
+Taking a holistic approach to open source metrics ensures you're not overly focused on one type to the detriment of others. For example, while high code quality is important, it should be balanced with strong community engagement to ensure a sustainable project future.
 
-Diverse metrics offer a more complete picture of a project's health and potential areas for growth or improvement. This could include balancing code metrics with community and project health metrics to ensure the project is not only technically sound but also welcoming and engaging for new contributors. It's about finding the right mix that supports your project's goals and values, fostering an environment where the codebase and the community thrive together.
+Diverse metrics offer a more complete picture of a project's health and potential areas for growth or improvement. This could include balancing code metrics with community and project health metrics to ensure the project is not only technically sound but also welcoming and engaging for new contributors. It's about finding the right mix that supports your project's goals and values, fostering an environment where both the codebase and the community thrive together.
 
 ## Setting Project Goals
 
-Setting clear and achievable goals can help you with project management. can help you with project management. Your goals might vary and include improving code quality, expanding the community, or streamlining issue resolution. When you set specific goals, you're better able to make decisions about prioritization and using resources (don't forget, time is a resource!).
+Setting clear and achievable goals can help you with project management. Your goals might vary and include improving code quality, expanding the community, or streamlining issue resolution. When you set specific goals, you're better able to make decisions about prioritization and using resources (don't forget, time is a resource!).
 
-Remember, goals for your open source project are final. They will evolve as the project grows. Metrics can inform these changes, providing insights that reveal new opportunities or challenges. For instance, if a project sets an initial goal to increase contributor numbers but later finds that engagement or quality is suffering, it might shift focus towards improving onboarding processes or documentation.
+Remember, goals for your open source project are not final. They will evolve as the project grows. Metrics can inform these changes, providing insights that reveal new opportunities or challenges. For instance, if a project sets an initial goal to increase contributor numbers but later finds that engagement or quality is suffering, it might shift focus towards improving onboarding processes or documentation.
 
 Maintainers should regularly review their goals in the context of the project's current metrics and broader trajectory. This adaptability ensures the project remains aligned with its community's needs and your vision as a maintainer.
 
@@ -48,7 +48,7 @@ Choose metrics that align with your project's priorities. For example, if commun
 
 ## Understanding and Interpreting Open Source Metrics
 
-Understanding and interpreting data helps us to understand and share the story behind the numbers. Some ways to do this include:
+Understanding and interpreting data helps you understand and share the story behind the numbers. Some ways to do this include:
 
 - **Trend Analysis**: Look for patterns over time, such as cyclical increases in contribution activity, to plan for future resource allocation.
 - **Anomaly Detection**: Identify unexpected spikes or drops in metrics and investigate potential causes, such as new feature releases or community events.
@@ -56,8 +56,7 @@ Understanding and interpreting data helps us to understand and share the story b
 
 ## Making Data-Driven Decisions
 
-Making data-driven decisions involves using the insights you've gathered to guide your project's direction.
-For example, if you see that your project has a high number of new contributors but a low retention rate, you might decide to focus on improving the onboarding process for new contributors.
+Making data-driven decisions involves using the insights you've gathered to guide your project's direction. For example, if you see that your project has a high number of new contributors but a low retention rate, you might decide to focus on improving the onboarding process for new contributors.
 
 A great way to make data-driven decisions about your project is to create a Workspace in OpenSauced. This will allow you to bring together repositories, insights, and collaboration tools in one place.
 
@@ -74,7 +73,7 @@ To create a Workspace:
 
 ![Workspaces](../_assets/images/workspace.png)
 
-Within the Repositories dashboard, you can view the following metrics, which are over a period of thirty days by default:
+Within the Repositories dashboard, you can view the following metrics, which are shown over a period of thirty days by default:
 
 - **Pull Requests**: This includes the total opened and merged pull requests for the repositories included in your workspace, as well as the velocity of pull requests being merged.
 - **Issues**: This includes the total opened and closed issues for the repositories included in your workspace, as well as the velocity of issues being closed.
@@ -128,7 +127,7 @@ You can create a Contributor Insight Page to track your contributors and ensure 
 
 ### Creating a Contributor Insight Page
 
-OpenSauced Contributor Insights feature allows you to categorize, monitor, and analyze various groups of contributors. This feature offers insights into each contributor's activities and contributions, helping you to track individual contribution histories, identify active engagement, recognize new or alumni contributors, and compare the performance of different contributors.
+The OpenSauced Contributor Insights feature allows you to categorize, monitor, and analyze various groups of contributors. This feature offers insights into each contributor's activities and contributions, helping you track individual contribution histories, identify active engagement, recognize new or alumni contributors, and compare the performance of different contributors.
 
 The Contributor Insights features allow you to:
 
@@ -158,7 +157,7 @@ To create a new Contributor Insight Page:
 
 Once you have created your page, you will be redirected to your Contributor Insight Page. Here, you will see a dashboard with an overview of the contributors.
 
-There are three tabs that provide you with more information on these repositories:
+There are three tabs that provide you with more information on these contributors:
 
 ##### Overview Dashboard
 

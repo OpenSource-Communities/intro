@@ -99,7 +99,7 @@ One of the golden rules in an international remote environment is never to make 
 
 Another way to engage with your contributors is through live streams. At OpenSauced, we do monthly live streams to thank our contributors for their pull requests and other support and give shoutouts as a token of our appreciation. You can also do live streams to work on issues publicly and ask your community to attend.
 
-Maintainers are human. Sometimes, a discussion with a contributor can upset you when you're tired or having a bad day. But always remember that you want to foster a healthy communication and welcoming environment. It's okay to cool down and take time to answer them. You can take a couple of hours or even a day before you return to them to avoid a bitter tone.
+Maintainers are human. Sometimes, a discussion with a contributor can upset you when you're tired or having a bad day. But always remember that you want to foster healthy communication and a welcoming environment. It's okay to cool down and take time to answer them. You can take a couple of hours or even a day before you return to them to avoid a bitter tone.
 
 ### Managing Expectations
 
@@ -121,7 +121,7 @@ What kind of support can you provide your contributors? You can think of these a
 
 - **Space**: Where can contributors ask questions and throw ideas?
 - **Pair programming**: Some contributors, especially beginners, might need extra guidance and hand-holding. Can you provide this support when necessary? How can they ask for it?
-- **Office hours**: Regular office hours is a great way to engage directly with your contributors. It allows you to listen to their ideas and challenges, identify areas that need to be improved, communicate with them about the direction of your project, and build a better relationship with them.
+- **Office hours**: Regular office hours are a great way to engage directly with your contributors. It allows you to listen to their ideas and challenges, identify areas that need to be improved, communicate with them about the direction of your project, and build a better relationship with them.
 
 When you support your contributors, you can gain their trust and motivation and create a more collaborative and productive environment. By providing them with the help they need, you can establish a culture where everyone feels respected and supported, which leads to even greater achievements.
 
@@ -133,7 +133,7 @@ Let your contributors know how long they can expect you to review a pull request
 
 #### Boundaries
 
-As your project grows and gains popularity, it will attract more contributors. Creating and setting clear boundaries becomes essential to prevent you from getting burned out quickly and balance your life.
+As your project grows and gains popularity, it will attract more contributors. Creating and setting clear boundaries becomes essential to prevent you from getting burned out quickly and balancing your life.
 
 Here are some ways to create boundaries:
 
@@ -143,7 +143,7 @@ Here are some ways to create boundaries:
 
   > "Hey \{username}, thank you for your PR. I will take two weeks off starting tomorrow and review this upon my return. You may ask about the status of your PR if I haven't responded to it in the next three weeks."
 
-  When pull requests come during your days off, after you return, you can thank and let the contributors know you will review the pull requests. Consider to say something like this:
+  When pull requests come during your days off, after you return, you can thank and let the contributors know you will review the pull requests. Consider saying something like this:
 
   > "Hey \{username}, I just returned from my days off. Thank you for taking this on! I need time to review it and will get back to you soon. I appreciate your patience."
 
@@ -185,7 +185,7 @@ Here are some techniques that you can train for active listening:
 
 #### Having Empathy and Compassion
 
-When handling a problem, such as a dispute between contributors or community members, it is best to be emphatic and compassionate.
+When handling a problem, such as a dispute between contributors or community members, it is best to be empathetic and compassionate.
 
 You must look at and listen to the problem from both sides to be non-judgemental. Then, put yourself in their shoes to see the case from their perspective so you can better understand it. Empathy and compassion will help you resolve a conflict and create a positive environment.
 

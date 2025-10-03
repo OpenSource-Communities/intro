@@ -53,7 +53,7 @@ OpenSauced is a powerful tool for finding open source projects to contribute to.
 
    ![OpenSauced signup](../_assets/images/opensauced-signup.png)
 
-   During the signup process, you'll be asked to pick some interests and set your timezone. This will help OpenSauced recommend projects that align with your interests and schedule.
+   During the sign up process, you'll be asked to pick some interests and set your timezone. This will help OpenSauced recommend projects that align with your interests and schedule.
 
 2. **Explore dashboard**: Once you've signed up, you'll be taken to your dashboard, where you can view your current projects, goals, and contributions. Clicking "Explore" in the header will take you to the Explore dashboard where you can browse projects based on your interests and skills.
 
@@ -259,7 +259,7 @@ It can be challenging to read and fill in a pull request template. Here is some 
    ## Steps to QA
 
    <!--
-   Please provide some steps for the reviewer to test your change. If   you have wrote tests, you can mention that here instead.
+   Please provide some steps for the reviewer to test your change. If   you have written tests, you can mention that here instead.
 
    1. Click a link
    2. Do this thing
@@ -381,9 +381,9 @@ After your contribution has been submitted and reviewed, one of the following ou
 
 Now that you know how to find and contribute to open source projects, it's time to put your skills into practice. Let's do this by contributing to OpenSauced's [guestbook repository](https://github.com/open-sauced/guestbook).
 
-### Prerequisite
+### Prerequisites
 
-You'll need to have these tools donwloaded and installed on your local machine:
+You'll need to have these tools downloaded and installed on your local machine:
 
 - [Node.js](https://nodejs.org)
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/)

@@ -5,13 +5,13 @@ sidebar_label: "How to Set Up Your Project"
 keywords: ["how to start an open source project", "how to setup open source project", "open source project setup", "start open source project", "create open source project", "write README for open source project", "project installation guide for open source", "open source license explained", "choosing open source license", "how to add code of conduct open source", "code of conduct open source project", "contributing guidelines open source", "issue templates", "create issue templates open source", "pull request template", "create pull request template open source", "Projects on GitHub", "GitHub project boards", "GitHub", "open source project best practices", "Open Source", "Open Source Community"]
 ---
 
-There are many things to consider when you think about how to start an open source project. In this portion of the course, we will walk through the key components every project needs to succeed.
+There are many things to consider when starting an open source project. In this portion of the course, we will walk through the key components every project needs to succeed.
 
 ## Detailed README
 
 A README file contains an introduction to your open source project. A good README should be clear, concise, up-to-date, and detailed. This file is located in your root directory and serves as the first impression for your contributors.
 
-Here are some things to consider inside your README:
+Here are some things to include in your README:
 
 - project title and summary
 - brief instructions on how to set up the project
@@ -42,7 +42,7 @@ This guide should include instructions for the following:
 - running the project locally
 - setting up Docker containers, if applicable
 
-The best way to test your guide is by setting up the project locally using your guide. If you encounter issues getting your project to work, you will discover it quickly and can update the documentation to add or clarify the missing piece.
+The best way to test your guide is by setting up the project locally using your own instructions. If you encounter issues getting your project to work, you will discover them quickly and can update the documentation to add or clarify any missing pieces.
 
 The installation guide is best placed at the top of your project's README file, as it is the most accessible file for your contributors.
 
@@ -52,7 +52,7 @@ If your project is on the larger side, consider having a separate documentation 
 
 ## Open Source Software License
 
-You need to know that an open source project without a license is not available for anyone to use and distribute. Take a look at these explanations on [The Legal Side of Open Source](https://opensource.guide/legal/) on Open Source Guides:
+You need to know that an open source project without a license is not available for anyone to use or distribute. Take a look at these explanations on [The Legal Side of Open Source](https://opensource.guide/legal/) from Open Source Guides:
 
 > Making your GitHub project public is not the same as licensing your project. Public projects are covered by [GitHub’s Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#3-ownership-of-content-right-to-post-and-license-grants), which allows others to view and fork your project, but your work otherwise comes with no permissions.
 >
@@ -78,9 +78,9 @@ For a complete list of Open Source Initiative (OSI) approved licenses, please ch
 
 ## Code of Conduct
 
-A code of conduct is an established set of rules and behaviors that all open source participants agree to abide by. This document helps to ensure a healthy and inclusive environment for all involved with the project.
+A code of conduct is an established set of rules and behaviors that all open source participants agree to abide by. This document helps to ensure a healthy and inclusive environment for everyone involved with the project.
 
-This set of rules and expectations will go inside a CODE_OF_CONDUCT file in the root directory of your project. Codes of conduct are generally divided into three main categories: pledge, standards, and enforcement.
+This set of rules and expectations should go inside a CODE_OF_CONDUCT file in the root directory of your project. Codes of conduct are generally divided into three main categories: pledge, standards, and enforcement.
 
 :::info
 
@@ -96,7 +96,7 @@ The opening pledge is a statement of the type of environment that the project wa
 
 ### Project Standards
 
-The standards section explicitly outlines what is considered acceptable and non-acceptable behavior by all project participants.
+The standards section explicitly outlines what is considered acceptable and unacceptable behavior by all project participants.
 
 Here is an example from the [OpenSauced Code of Conduct](https://github.com/open-sauced/.github/blob/main/CODE_OF_CONDUCT.md):
 
@@ -118,7 +118,7 @@ Here is an example from the [OpenSauced Code of Conduct](https://github.com/open
 
 ### Project Enforcement
 
-You will want to explicitly state the consequence of what will happen if any member of the project behaves in an unacceptable way that violates your code of conduct.
+You will want to explicitly state the consequences of what will happen if any member of the project behaves in an unacceptable way that violates your code of conduct.
 
 Here is an example from the [OpenSauced Code of Conduct](https://github.com/open-sauced/.github/blob/main/CODE_OF_CONDUCT.md):
 
@@ -143,13 +143,13 @@ Your guide should include the following sections:
 - guidelines for code and style conventions
 - guidelines for creating pull requests
 
-For an in-depth look into creating a robust CONTRIBUTING file, please read [this article](https://dev.to/opensauced/how-to-make-a-delicious-contributing-guide-4bp3) by OpenSauced.
+For an in-depth look at creating a robust CONTRIBUTING file, please read [this article](https://dev.to/opensauced/how-to-make-a-delicious-contributing-guide-4bp3) by OpenSauced.
 
 ## Issue Templates
 
-Issue templates help guide contributors in providing the specific and structured information needed when opening project issues. Having these templates in your repository will ensure you receive the desired information to triage the issue correctly.
+Issue templates help guide contributors in providing the specific and structured information needed when opening project issues. Having these templates in your repository will ensure you receive the information needed to triage the issue correctly.
 
-You can create various issue templates, such as bug reports, feature requests, documentation updates, etc. Inside these templates, you can have required fields like steps for reproducing the bug or a details section for a feature request. You can also attach specific labels like `feature`, `needs triage`, or `bug` to inform the types of issue templates.
+You can create various issue templates, such as bug reports, feature requests, documentation updates, etc. Inside these templates, you can have required fields like steps for reproducing the bug or a details section for a feature request. You can also attach specific labels like `feature`, `needs triage`, or `bug` to indicate the types of issue templates.
 
 ### Creating Issue Templates
 
@@ -157,13 +157,13 @@ There are two ways to create issue templates on GitHub.
 
 #### 1. Using GitHub's Template Builder
 
-To create issue templates using the GitHub's template builder, you will need to:
+To create issue templates using GitHub's template builder, you will need to:
 
 - go to your project's settings,
 - navigate to the "Features" section,
 - click on "Set up templates" under "Issues".
 
-You can follow the [detailed guide](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-templates) on the GitHub documentation to create one.
+You can follow the [detailed guide](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-templates) in the GitHub documentation to create one.
 
 ![Issue template GIF](../_assets/gifs/issues-template.gif)
 
@@ -188,7 +188,7 @@ Here is the [bug report template](https://raw.githubusercontent.com/open-sauced/
 
 Like issue templates, pull request templates allow you to guide your contributors in providing specific and structured information when opening pull requests in your project. This template will be in a file called `PULL_REQUEST_TEMPLATE.md`, which is usually located either in the root directory or the `.github` directory.
 
-Here are a few things to consider inside your pull request template:
+Here are a few things to include in your pull request template:
 
 - section for contributors to describe the details of changes that were made and why
 - section for the type of change made (e.g., bug fix, feature, style update, etc.)
@@ -201,7 +201,7 @@ Here is an example of a [pull request template](https://raw.githubusercontent.co
 
 ## Projects on GitHub
 
-Keeping track of your issues is getting more challenging as your project progresses. A great tool that can help you organize and track your issues is [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) on GitHub. With projects, you can efficiently manage your project's features, roadmaps, or releases as they're built from and integrated with issues and pull requests that you add.
+Keeping track of your issues becomes more challenging as your project progresses. A great tool that can help you organize and track your issues is [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) on GitHub. With projects, you can efficiently manage your project's features, roadmaps, or releases as they're built from and integrated with issues and pull requests that you add.
 
 You can choose a template for your project. One of the templates is the "Kanban" template. Here, you can create notes and place the existing issues and pull requests in the "Backlog", "Ready", "In progress", "In review", and "Done" columns. This will make it easy for you and your team to track the progress of your project.
 
@@ -218,7 +218,7 @@ Projects are private by default. You can make them private to core maintainers o
 
 :::
 
-Please read the [GitHub documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project) to learn more about adding items to your project. 
+Please read the [GitHub documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project) to learn more about adding items to your project.
 
 ![GitHub Project Boards GIF](../_assets/gifs/create-github-project.gif)
 

@@ -7,13 +7,13 @@ keywords: ["glossary", "open source glossary", "glossary for open source maintai
 
 ## API Documentation
 
-API documentation is a technical document that explains how to use and work with an API. This manual contains all the information required to work with the API including details on how to make requests, what data formats are supported, and what response codes are returned.
+API documentation is a technical document that explains how to use and work with an API. This manual contains all the information required to work with the API, including details on how to make requests, what data formats are supported, and what response codes are returned.
 
 Examples of API documentation include Swagger, RAML, and API Blueprint.
 
 ## Backlog
 
-A backlog is a list of tasks that need to be completed within a project. Typically, these are tasks that are not yet assigned to a developer and are waiting to be worked on. Sometimes, these could be tasks that were open weeks or months ago and are still waiting to be worked on.
+A backlog is a list of tasks that need to be completed within a project. Typically, these are tasks that are not yet assigned to a developer and are waiting to be worked on. Sometimes, these could be tasks that were opened weeks or months ago and are still waiting to be worked on.
 
 ## Code Freeze
 
@@ -21,7 +21,7 @@ A code freeze is a period of time where no new code is added to a project. It is
 
 ## Code Review
 
-A code review is when a maintainer or contributor will review the work of another contributor. This is a great way to ensure that the code is high quality and meets the standards of the project.
+A code review is when a maintainer or contributor reviews the work of another contributor. This is a great way to ensure that the code is high quality and meets the standards of the project.
 
 ## Containerization
 
@@ -45,7 +45,7 @@ A contributor is someone who contributes to a project by adding code, documentat
 
 ## DevOps
 
-DevOps is a mix between software development and IT operations. Examples of DevOps work would include automating the deployment of software, monitoring the performance of deployed software, and managing the infrastructure that the software runs on.
+DevOps is a combination of software development and IT operations. Examples of DevOps work include automating the deployment of software, monitoring the performance of deployed software, and managing the infrastructure that the software runs on.
 
 ## Discord
 
@@ -76,7 +76,7 @@ Examples of GitHub Actions include running tests, deploying to production, and s
 
 ## GitHub Discussions
 
-GitHub Discussions are a way to have conversations about your project directly in GitHub. They are a great way to discuss ideas, ask questions, and share knowledge with your community.
+GitHub Discussions are a way to have conversations about your project directly on GitHub. They are a great way to discuss ideas, ask questions, and share knowledge with your community.
 
 ## Issue Template
 
@@ -88,11 +88,11 @@ Examples of issue templates include bug reports, feature requests, and documenta
 
 An issue tracker is a software application used to track issues and bugs within a project. It is often used in conjunction with a version control system and is a great way to keep track of bugs, enhancements, and tasks for your projects.
 
-GitHub has a built-in issue tracker but you can also use other tools such as Jira, Trello, and Asana.
+GitHub has a built-in issue tracker, but you can also use other tools such as Jira, Trello, and Asana.
 
 ## Linting
 
-Linting is the process of running a program that will analyze code for potential errors. A popular linting tool used frequently is ESLint. You can setup an action to run ESlint against each pull request that comes in to check for potential errors before it makes it into production.
+Linting is the process of running a program that analyzes code for potential errors. A popular linting tool is ESLint. You can set up an action to run ESLint against each pull request that comes in to check for potential errors before it makes it into production.
 
 ## Milestones
 
@@ -100,7 +100,7 @@ Milestones are groups of issues that correspond to a project, feature, or time p
 
 ## Prettier Code Formatting
 
-Prettier is an opinionated code formatter that enforces a consistent style for your codebase. You can customize your Prettier configuration to fit your project's needs and customize how you prefer semicolons, single quotes, trailing commas, and more to be formatted.
+Prettier is an opinionated code formatter that enforces a consistent style for your codebase. You can customize your Prettier configuration to fit your project's needs and choose how you prefer semicolons, single quotes, trailing commas, and more to be formatted.
 
 ## Pull Request (PR) Template
 
@@ -122,7 +122,7 @@ Scrum is an agile framework for brainstorming, developing, and delivering produc
 
 ## Technical Debt
 
-Technical debt is a when a codebase has increased maintenance costs because of earlier decisions made during development.
+Technical debt is when a codebase has increased maintenance costs because of earlier decisions made during development.
 
 ## Versioning
 
