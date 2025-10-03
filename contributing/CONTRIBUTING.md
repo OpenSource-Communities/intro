@@ -4,8 +4,8 @@ Contributions are always welcome, no matter how large or small. Before contribut
 
 ## Recommended Communication Style
 
-1. Always leave screenshots for visual changes.
-2. Always leave a detailed description in the pull request. Leave nothing ambiguous for the reviewer(s).
+1. Always include screenshots for visual changes.
+2. Always provide a detailed description in the pull request. Leave nothing ambiguous for the reviewer(s).
 3. Always review your code first. Be sure to run the project locally and test it before asking for a review.
 4. Always communicate in the GitHub repository. Whether it is in the issue or the pull request, keeping the lines of communication open and visible to everyone on the team helps everyone around you.
 
@@ -15,7 +15,7 @@ Contributions are always welcome, no matter how large or small. Before contribut
 
 - If you wish to work on an open issue, please comment with `.take`, and it will be assigned to you. <br> If an issue is not assigned, it is assumed to be available for anyone to work on. So, assign yourself to an issue **before** beginning work to avoid conflicts.
 
-  > **NOTE**: Please only self-assign an issue with the label "beginners only" or "good first issue" **one time**. <br> Maintainers may remove you from the assignees and not accept your pull request if you choose to proceed.
+  > **NOTE**: Please only self-assign an issue with the label "beginners only" or "good first issue" **one time**. <br> Maintainers may remove you from the assignees and not accept your pull request if you choose to proceed.
 
 - Do you spot a bug in any of our courses? Or do you have an idea for enhancing our courses and want to add a section or a chapter to a course?
 
@@ -25,7 +25,7 @@ You can always ask for help in our [Community](https://github.com/OpenSource-Com
 
 ## Pull Requests (PRs)
 
-We actively welcome your PRs. However, before working on changes, you must ensure that **you are assigned** to an existing issue and **link your work to the issue in your PR template**.
+We actively welcome your PRs. However, before working on changes, you must ensure that **you are assigned** to an existing issue and **link your work to the issue in your PR template**.
 
 ### Before Submitting a PR Template
 
@@ -37,7 +37,7 @@ We actively welcome your PRs. However, before working on changes, you must ensur
 
 1. Ensure that you address one issue in one PR. <br> If you work on multiple issues, work on them separately and create one PR to address each issue.
 
-2. Completing the PR template. Make sure you **fill in all sections** and that you have:
+2. Complete the PR template. Make sure you **fill in all sections** and that you have:
 
    - **A valid title**. The PR title must begin with `feat:`, `fix:`, or anything related to your changes.
    - **A related issue**. [Link the issue number](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) that you worked on and add a keyword of "Closes", "Fixes", or "Resolves" in front of it. For example: Closes #123, Fixes #234, etc.
@@ -52,14 +52,14 @@ We actively welcome your PRs. However, before working on changes, you must ensur
 
 3. Keep your branch up to date while waiting for review and resolve any merge conflicts in your terminal.
 
-4. Response and address the reviewer's feedback.
+4. Respond to and address the reviewer's feedback.
 
 ### ⚠️ A PR will be marked as invalid and may be closed if:
 
-- the issue is not assigned to the contributor who opened the PR.
-- no issue is linked to the PR.
-- PR template is incomplete, or any section in the template is deleted.
-- changes are made directly in the default (`main`) branch.
+- The issue is not assigned to the contributor who opened the PR.
+- No issue is linked to the PR.
+- The PR template is incomplete, or any section in the template is deleted.
+- Changes are made directly in the default (`main`) branch.
 
 ## Getting Started
 

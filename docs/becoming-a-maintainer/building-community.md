@@ -13,7 +13,7 @@ In this chapter, you will learn how to build and nurture a welcoming and support
 
 ## Positive Community Culture
 
-There are many types of people when talking about engagements in a community. Some are actively engaging, some come and go, and some are lurkers. But one thing is sure: everyone has the same interest (your project), and they bring value to your project. You always want to ensure everyone feels welcomed, included, and, most importantly, safe in your community. One key to achieving this is fostering a positive community culture.
+There are many types of people when talking about engagements in a community. Some are actively engaging, some come and go, and some are lurkers. But one thing is certain: everyone has the same interest (your project), and they bring value to your project. You always want to ensure everyone feels welcomed, included, and, most importantly, safe in your community. One key to achieving this is fostering a positive community culture.
 
 ### Open Communication
 

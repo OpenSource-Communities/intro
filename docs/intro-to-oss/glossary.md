@@ -7,19 +7,19 @@ keywords: ["glossary", "open source glossary", "glossary for open source contrib
 
 ## Branch
 
-A branch is a separate version of the code that's created for development purposes. Branches allow contributors to experiment with changes without affecting the main codebase. When changes are ready to be merged into the main codebase, they're typically submitted as a pull request.
+A branch is a separate version of the code created for development purposes. Branches allow contributors to experiment with changes without affecting the main codebase. When changes are ready to be merged into the main codebase, they're typically submitted as a pull request.
 
 ## Bug
 
-A bug refers to an error, flaw, or defect in code that adversely affects the proper functioning of the software. Open source projects often depend on contributions from the community to identify and rectify these bugs.
+A bug refers to an error, flaw, or defect in code that adversely affects the proper functioning of the software. Open source projects often depend on contributions from the community to identify and fix these bugs.
 
 ## Clone
 
-Cloning is the process used to copy an existing Git repository into a new local directory. The `git clone` command will create a new local directory for the repository, copy all the contents of the specified repository, create the remote tracked branches, and checkout an initial branch locally. By default, Git clone will create a reference to the remote repository called origin.
+Cloning is the process of copying an existing Git repository into a new local directory. The `git clone` command creates a new local directory for the repository, copies all the contents of the specified repository, creates the remote tracked branches, and checks out an initial branch locally. By default, Git clone creates a reference to the remote repository called origin.
 
 ## Contributor
 
-A contributor is anyone who makes changes, additions, or suggestions to an open source project. Contributors can be developers, designers, writers, testers, or anyone else who helps to make the project better.
+A contributor is anyone who makes changes, additions, or suggestions to an open source project. Contributors can be developers, designers, writers, testers, or anyone else who helps make the project better.
 
 ## Core Member
 
@@ -27,7 +27,7 @@ A core member is a contributor who has been granted additional privileges or res
 
 ## Docs
 
-Docs is an abbreviation for "documentation". It primarily explains how to implement and use a product or an open source project. It also provides information on how to contribute to the project and expectations for contributors. Documentation is often written using [Markdown](https://www.markdownguide.org/), a lightweight markup language.
+Docs is an abbreviation for "documentation". It primarily explains how to implement and use a product or an open source project. It also provides information on how to contribute to the project and outlines expectations for contributors. Documentation is often written using [Markdown](https://www.markdownguide.org/), a lightweight markup language.
 
 ## Fork
 
@@ -35,7 +35,7 @@ A fork is a copy of a repository. When you fork a repository, you create a new c
 
 ## Issue
 
-An issue is a problem or bug that needs to be addressed in the code. Issues can be created by anyone, and they're often used to keep track of bugs, feature requests, and other tasks that need to be done.
+An issue is a problem, bug, or task that needs to be addressed in the code. Issues can be created by anyone and are often used to keep track of bugs, feature requests, and other tasks that need to be done.
 
 ## Maintainer
 
@@ -55,7 +55,7 @@ Onboarding documentation helps new team members or collaborators quickly become 
 
 ## OSS Projects
 
-OSS stands for "Open Source Software" projects. These are software projects where the source code is made available to the public, allowing anyone to view, use and modify the software.
+OSS stands for "Open Source Software" projects. These are software projects where the source code is made available to the public, allowing anyone to view, use, and modify the software.
 
 ## Pull Request
 

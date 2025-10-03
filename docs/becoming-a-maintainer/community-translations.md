@@ -1,7 +1,7 @@
 ---
 id: community-translations
 title: "Community Course Translations"
-sidebar_label: "community translations"
+sidebar_label: "Community Translations"
 keywords: ["community translations", "Open Source", "Open Source Community"]
 ---
 
@@ -9,14 +9,14 @@ We are grateful for the contributions of the community in translating our course
 
 ## Intro to Open Source Course
 
-<!-- Use below format to list your repository -->
+<!-- Use the format below to list your repository -->
 <!--
-- [Language](link to your forked repository) - maintain by [GitHub username](link to your GitHub profile)
+- [Language](link to your forked repository) - maintained by [GitHub username](link to your GitHub profile)
 -->
 
 ## Becoming a Maintainer Course
 
-<!-- Use below format to list your repository -->
+<!-- Use the format below to list your repository -->
 <!--
-- [Language](link to your forked repository) - maintain by [GitHub username](link to your GitHub profile)
+- [Language](link to your forked repository) - maintained by [GitHub username](link to your GitHub profile)
 -->

@@ -9,19 +9,19 @@ Now that you've gone through the course and understand what it takes to be a suc
 
 ## Prerequisites
 
-You'll need to have the following:
+You'll need the following:
 
 - A [GitHub Account](https://github.com)
 
 ## Choosing Your Project
 
-Sometimes, the hardest part is deciding what you will work on. Here are some general ideas to get you started:
+Sometimes, the hardest part is deciding what to work on. Here are some general ideas to get you started:
 
 - Identify a problem or need in the open source community.
 - Think about a topic you're passionate about that others might be interested in.
 - Think about a problem you've had to solve that others can benefit from.
 
-Don't think too hard about it now. You can always go back and update things later. For now, if you need a place to start, let's create a repository about your favorite open source resources.
+Don't overthink it for now. You can always go back and update things later. For now, if you need a place to start, let's create a repository for your favorite open source resources.
 
 ## Creating Your Repository
 
@@ -42,7 +42,7 @@ If you're using our starter idea, you could use the following:
 
 ## Adding Repository Documentation
 
-Now that you have the repository, you can either edit it directly in GitHub or clone the project and work on it locally. We previously learned about how to create detailed READMEs, contributing guides, and codes of conduct in "[How to Setup Your Open Source Project](how-to-setup-your-project.md)". If you need a reminder, take a look back at that chapter.
+Now that you have the repository, you can either edit it directly on GitHub or clone the project and work on it locally. We previously learned how to create detailed READMEs, contributing guides, and codes of conduct in "[How to Setup Your Open Source Project](how-to-setup-your-project.md)". If you need a reminder, take a look back at that chapter.
 
 ### Creating Your README
 
@@ -77,7 +77,7 @@ Guide on how to use the project, including any configuration steps or basic exam
 
 ## Contributing to the Project
 
-General instructions on how to submit contributions to the project with a link to your CONTRIBUTING.md file. Also, include information on how to engage with the community and maintainers.
+General instructions on how to submit contributions to the project, with a link to your CONTRIBUTING.md file. Also, include information on how to engage with the community and maintainers.
 
 ## Acknowledgments
 

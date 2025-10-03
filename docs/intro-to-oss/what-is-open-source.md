@@ -5,13 +5,13 @@ sidebar_label: "What is Open Source"
 keywords: ["what is open source", "open source definition", "open source licenses explained", "open source history", "open source evolution", "Open Source", "Open Source Community", "open source software", "history of open source"]
 ---
 
-In this chapter, we'll explore the history of open source and what that means. Before contributing to a project, you should understand what is open source and the principles behind it to help you appreciate the context in which you'll be collaborating and contributing.
+In this chapter, we'll explore the history of open source and what it means. Before contributing to a project, you should understand what open source is and the principles behind it to help you appreciate the context in which you'll be collaborating and contributing.
 
 ## Definition
 
-Open source refers to a type of software whose source code is made available to the public, allowing anyone to view, use, modify, and distribute the code. This is in contrast to proprietary software, where the source code is kept secret and only the compiled program is distributed. The core principle behind open source is the idea of collaboration and the belief that sharing knowledge and resources leads to better, more reliable, and more innovative software.
+Open source refers to software whose source code is made available to the public, allowing anyone to view, use, modify, and distribute the code. This is in contrast to proprietary software, where the source code is kept secret and only the compiled program is distributed. The core principle behind open source is the idea of collaboration and the belief that sharing knowledge and resources leads to better, more reliable, and more innovative software.
 
-Open source software is built on the premise that when many people work together, they can create something greater than the sum of its parts. Contributors to open source projects come from diverse backgrounds, and they bring a wide range of skills, experiences, and perspectives to the table. This diversity of thought and expertise leads to more robust, innovative, and reliable software.
+Open source software is built on the premise that when many people work together, they can create something greater than the sum of its parts. Contributors to open source projects come from diverse backgrounds and bring a wide range of skills, experiences, and perspectives to the table. This diversity of thought and expertise leads to more robust, innovative, and reliable software.
 
 ### Open Source Licenses
 
@@ -21,7 +21,7 @@ These open source licenses are crucial because they ensure that the software rem
 
 ## Brief History of Open Source
 
-The history of open source dates back to the early days of computing when software was freely shared among researchers and developers.
+The history of open source dates back to the early days of computing, when software was freely shared among researchers and developers.
 
 ### Early Beginnings
 
@@ -41,7 +41,7 @@ In 1991, a Finnish computer science student named Linus Torvalds developed a fre
 
 ### The Open Source Initiative
 
-In 1998, Christine Peterson, an Executive Director at Foresight coined the term "open source software" as a [deliberate effort to make this field...more understandable to newcomers and to business[es]](https://opensource.com/article/18/2/coining-term-open-source-software). She, alongside Eric S. Raymond, Bruce Perens, and other developers and advocates then created The Open Source Initiative (OSI) to spread more awareness about this concept. From there, the OSI developed the definition of open source, a set of criteria that software must meet to be considered open source. These criteria include free distribution, source code availability, derived works, and license integrity.
+In 1998, Christine Peterson, an Executive Director at Foresight, coined the term "open source software" as a [deliberate effort to make this field...more understandable to newcomers and to business[es]](https://opensource.com/article/18/2/coining-term-open-source-software). She, alongside Eric S. Raymond, Bruce Perens, and other developers and advocates, then created The Open Source Initiative (OSI) to spread more awareness about this concept. From there, the OSI developed the definition of open source, a set of criteria that software must meet to be considered open source. These criteria include free distribution, source code availability, derived works, and license integrity.
 
 The OSI's efforts to promote open source led to a surge of interest and adoption by both individuals and organizations. Today, open source software is widely used across various industries, and many well-known technology companies, such as Google, IBM, and Microsoft, actively support and contribute to open source projects.
 
@@ -67,7 +67,7 @@ The open source movement has come a long way since its early beginnings. Today, 
 
 As open source continues to evolve, new projects, tools, and technologies are constantly emerging, pushing the boundaries of what's possible and driving innovation across a wide range of industries.
 
-The growing popularity of open source has also led to a thriving ecosystem of conferences, meetups, and online communities where developers can come together to learn, collaborate, and share their knowledge. By participating in these events and engaging with the open source community, you'll have the opportunity to expand your skills, build your network, and stay up-to-date with the latest developments in the field. 
+The growing popularity of open source has also led to a thriving ecosystem of conferences, meetups, and online communities where developers can come together to learn, collaborate, and share their knowledge. By participating in these events and engaging with the open source community, you'll have the opportunity to expand your skills, build your network, and stay up-to-date with the latest developments in the field.
 
 The history of open source software shows us how collective efforts can produce reliable, innovative, and widely adopted technologies.
 
