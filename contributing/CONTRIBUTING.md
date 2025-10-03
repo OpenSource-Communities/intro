@@ -33,6 +33,8 @@ We actively welcome your PRs. However, before working on changes, you must ensur
 
 2. Run and check your changes locally. Ensure that everything works as it should.
 
+3. Follow the [Markdown Style Guide](./markdown-style-guide.md) for consistent formatting in documentation changes.
+
 ### Submitting a PR Template
 
 1. Ensure that you address one issue in one PR. <br> If you work on multiple issues, work on them separately and create one PR to address each issue.

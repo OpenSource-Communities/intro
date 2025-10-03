@@ -49,12 +49,12 @@ To get started with Git and GitHub, follow these steps:
 
 2. **Configure Git**: After installing Git, open a terminal or command prompt and configure your Git user information by running the following commands:
 
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
-   ```
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    ```
 
-   Replace `Your Name` with your full name and `your.email@example.com` with the email address you used to sign up for GitHub.
+    Replace `Your Name` with your full name and `your.email@example.com` with the email address you used to sign up for GitHub.
 
 #### Practicing Contributing with VS Code
 
@@ -72,11 +72,11 @@ To practice using GitHub, we're going to walk through creating a repository, clo
 
 2. **Clone the repository**: Once you have created a new repository, you can clone it to your local machine by running the following command in your terminal or command prompt:
 
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
-   ```
+    ```bash
+    git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
+    ```
 
-   Replace "YOUR-USERNAME" with your GitHub username and "REPOSITORY-NAME" with `practice-repository`.
+    Replace "YOUR-USERNAME" with your GitHub username and "REPOSITORY-NAME" with `practice-repository`.
 
 3. **Access your repository in your code editor**: For this example, we're using VS Code. Open VS Code, navigate to the file tab, and then open your `practice-repository`.
 
