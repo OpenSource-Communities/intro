@@ -16,7 +16,7 @@
     "dependencies": {
         "@docusaurus/core": "3.4.0",
         "@docusaurus/plugin-content-docs": "^3.4.0",
-        "@docusaurus/preset-classic": "3.4.0",
+        "@docusaurus/preset-classic": "3.8.1",
         "@mdx-js/react": "^3.0.0",
         "clsx": "^2.0.0",
         "fs": "^0.0.1-security",
