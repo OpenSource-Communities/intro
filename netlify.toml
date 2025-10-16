@@ -4,3 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "18.0"
+
+# Redirect all traffic to the new site
+[[redirects]]
+  from = "https://opensauced.pizza/learn"
+  to = "https://learn.osscommunities.com/:splat"
+  status = 301
