@@ -61,6 +61,22 @@ To learn more about testing, please refer to [this section](maintainer-powerups.
 
 It is important to check for code quality and good software engineering practices when conducting code reviews. This includes checking for proper variable naming, adherence to coding standards, and easy-to-read and understand code. A coding style guide is encouraged to help contributors understand your project's coding standards.
 
+----------     Wrong Practice      ----------
+
+age = "10/11/2025"  # storing date that inside a variable that is conveying other meaning is bad practice
+print(type(age))  # it will be confusing for you in future 
+
+----------     Ideal Practice      ----------
+
+from datetime import datetime
+
+date_str = "10/11/2025"  # Use a descriptive name instead of 'age'
+date_obj = datetime.strptime(date_str, "%m/%d/%Y")  # Convert string to datetime object 
+
+
+print(type(date_obj))  <!-- <class 'datetime.datetime'> -->
+
+
 Many tools can help you check for code quality. You can set up linting for your project to ensure there are no syntax errors or style issues. You can also set up code scanning tools to check for security vulnerabilities and other issues in the codebase.
 
 To learn more about these tools, please refer to [this section](maintainer-powerups.md#code-scanning-tools) in the "Maintainer Power Ups" chapter.
