@@ -60,6 +60,12 @@ const config = {
 		({
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
+			metadata: [
+				{
+					name: "viewport",
+					content: "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+				},
+			],
 			navbar: {
 				title: "Open Source Education Path",
 				logo: {
