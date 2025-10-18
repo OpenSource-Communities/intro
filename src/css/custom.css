@@ -50,3 +50,45 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   position: absolute;
   background-repeat: no-repeat;
 }
+
+/* Fix code block copy buttons for mobile */
+/* Make copy buttons always visible on mobile devices */
+@media (max-width: 996px) {
+  .clean-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Ensure the button group is always visible */
+  .code-block-with-language .button-group {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Make sure copy button is always visible */
+  .clean-btn[aria-label*="Copy"] {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+/* Alternative approach - target Docusaurus specific classes */
+@media (max-width: 996px) {
+  /* Target the copy button in code blocks */
+  .theme-code-block .clean-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Target button groups in code blocks */
+  .theme-code-block .button-group {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Ensure code block buttons are always visible on mobile */
+  .prism-code .clean-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
