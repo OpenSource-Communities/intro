@@ -243,8 +243,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   .button,
   .clean-btn,
   a.button {
-    min-height: 44px;
-    min-width: 44px;
+    min-height: 35px;
+    min-width: 35px;
     padding: 0.75rem 1.25rem;
   }
   
