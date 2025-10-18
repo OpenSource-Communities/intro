@@ -101,13 +101,44 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 @media (max-width: 996px) {
   /* Improve overall spacing on mobile */
   .main-wrapper {
-    padding: 0;
+    padding: 0 !important;
   }
   
-  /* Better content padding on mobile */
+  /* Remove ALL padding from containers */
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Remove all horizontal padding from article */
+  article {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Add ONLY minimal padding to markdown content - force override */
+  .theme-doc-markdown.markdown {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  
+  /* Remove padding from ALL doc containers */
+  div[class*="docItemContainer"],
+  div[class*="docMainContainer"],
+  div[class*="docItemCol"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Target the main doc wrapper */
+  main[class*="docMainContainer"] {
+    padding: 0 !important;
+  }
+  
+  /* Remove row padding */
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 
@@ -238,9 +269,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   .button,
   .clean-btn,
   a.button {
-    min-height: 44px;
-    min-width: 44px;
+    min-height: 40px;
+    min-width: 40px;
     padding: 0.75rem 1.25rem;
+  }
+  
+  /* Add flex display to clean-btn for better layout */
+  .clean-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* Better button spacing */
