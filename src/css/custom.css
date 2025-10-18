@@ -109,11 +109,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
-  /* Improve article spacing */
-  article {
-    padding: 1rem;
-  }
 }
 
 /* Image Responsiveness */
