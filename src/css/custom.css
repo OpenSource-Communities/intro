@@ -92,3 +92,213 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     visibility: visible !important;
   }
 }
+
+/* ==========================================
+   MOBILE RESPONSIVE IMPROVEMENTS
+   ========================================== */
+
+/* General Mobile Breakpoints */
+@media (max-width: 996px) {
+  /* Improve overall spacing on mobile */
+  .main-wrapper {
+    padding: 0;
+  }
+  
+  /* Better content padding on mobile */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Improve article spacing */
+  article {
+    padding: 1rem;
+  }
+}
+
+/* Image Responsiveness */
+@media (max-width: 996px) {
+  /* Make all images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Ensure markdown images are responsive */
+  .markdown img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Handle images in content */
+  .theme-doc-markdown img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive image containers */
+  .markdown > p > img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+/* Navigation Menu Improvements for Mobile */
+@media (max-width: 996px) {
+  /* Improve mobile menu button visibility */
+  .navbar__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Better mobile menu styling */
+  .navbar-sidebar {
+    width: 80vw;
+    max-width: 350px;
+  }
+  
+  /* Improve menu item spacing */
+  .navbar-sidebar .menu__list-item {
+    padding: 0.5rem 0;
+  }
+  
+  /* Better touch targets for mobile menu */
+  .navbar-sidebar .menu__link {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    min-height: 44px; /* Accessibility - minimum touch target */
+  }
+}
+
+/* Table Responsiveness */
+@media (max-width: 996px) {
+  /* Make tables scrollable horizontally on mobile */
+  .markdown table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Ensure table cells have adequate padding */
+  .markdown table td,
+  .markdown table th {
+    min-width: 100px;
+    padding: 0.5rem;
+  }
+}
+
+/* Typography Improvements for Mobile */
+@media (max-width: 996px) {
+  /* Adjust heading sizes for mobile */
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  h3 {
+    font-size: 1.25rem !important;
+  }
+  
+  /* Better line height for readability */
+  .markdown p {
+    line-height: 1.7;
+  }
+  
+  /* Prevent text overflow */
+  .markdown {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+/* Sidebar Improvements for Mobile */
+@media (max-width: 996px) {
+  /* Ensure sidebar is fully usable on mobile */
+  .theme-doc-sidebar-container {
+    width: 100%;
+  }
+  
+  /* Better sidebar menu items */
+  .theme-doc-sidebar-menu {
+    padding: 1rem;
+  }
+  
+  /* Improve sidebar link spacing */
+  .menu__link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Button and Interactive Elements */
+@media (max-width: 996px) {
+  /* Ensure all buttons have adequate touch targets */
+  .button,
+  .clean-btn,
+  a.button {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.75rem 1.25rem;
+  }
+  
+  /* Better button spacing */
+  .button:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Admonitions (Tips, Notes, Warnings) on Mobile */
+@media (max-width: 996px) {
+  .admonition {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+  
+  .admonition-heading h5 {
+    font-size: 1rem;
+  }
+}
+
+/* Footer Improvements for Mobile */
+@media (max-width: 996px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+  
+  .footer__links {
+    padding-left: 0;
+  }
+  
+  .footer__col {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+@media (max-width: 996px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Prevent content from overflowing */
+  .main-wrapper {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure all containers respect viewport */
+  * {
+    max-width: 100%;
+  }
+  
+  /* Allow specific elements to exceed if needed */
+  html, body, .main-wrapper, .container {
+    max-width: none;
+  }
+}
