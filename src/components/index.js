@@ -1,3 +1,5 @@
+// Re-export components for easier imports
+export { default as CourseProgress } from './CourseProgress';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
