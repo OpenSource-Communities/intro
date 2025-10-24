@@ -1,0 +1,39 @@
+.progressPage {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.progressPage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+  text-align: center;
+}
+
+.progressPage .subtitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .progressPage {
+    padding: 1rem 0.5rem;
+  }
+  
+  .progressPage h1 {
+    font-size: 2rem;
+  }
+  
+  .progressPage .subtitle {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+}
