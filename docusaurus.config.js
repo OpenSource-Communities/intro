@@ -86,6 +86,11 @@ const config = {
 						label: "Becoming a Maintainer",
 					},
 					{
+						to: "/progress",
+						label: "My Progress",
+						position: "right",
+					},
+					{
 						href: "https://github.com/OpenSource-Communities/intro",
 						label: "GitHub",
 						position: "right",
