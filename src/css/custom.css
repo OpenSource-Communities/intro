@@ -144,23 +144,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 /* Image Responsiveness */
 @media (max-width: 996px) {
-  /* Make all images responsive */
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  /* Ensure markdown images are responsive */
-  .markdown img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Handle images in content */
+  /* Make content images responsive */
+  .markdown img,
   .theme-doc-markdown img {
     max-width: 100%;
     height: auto;
+    display: block;
   }
   
   /* Responsive image containers */
@@ -168,6 +157,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
+}
+
+/* Footer logo sizing on mobile – prevent oversized logo */
+@media (max-width: 996px) {
+  .footer .footer__logo img,
+  .footer .footer__logo {
+    max-width: 72px;
+    width: 72px;
+    height: auto;
   }
 }
 
@@ -196,6 +195,27 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     padding: 0.75rem 1rem;
     font-size: 1rem;
     min-height: 44px; /* Accessibility - minimum touch target */
+  }
+}
+
+/* Pagination (Prev/Next) – prevent cut off on mobile */
+@media (max-width: 996px) {
+  /* Add small horizontal padding to the whole block to keep cards inside viewport */
+  .pagination-nav {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  /* Remove extra margins that cause overflow when each item is 50% width */
+  .pagination-nav__link {
+    margin: 0;
+  }
+
+  /* Ensure box sizing doesn't overflow and keep a tiny gap */
+  .pagination-nav__item {
+    box-sizing: border-box;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 }
 
@@ -271,7 +291,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   a.button {
     min-height: 40px;
     min-width: 40px;
-    padding: 0.75rem 1.25rem;
   }
   
   /* Add flex display to clean-btn for better layout */
