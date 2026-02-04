@@ -2,10 +2,10 @@
 id: the-secret-sauce
 title: "The Secret Sauce"
 sidebar_label: "The Secret Sauce"
-keywords: ["open source secret sauce", "how to make a lasting impact in open source", "open source resume builder", "building open source resume", "building open source resume with OpenSauced", "finding issues in open source", "addressing issues in open source", "gaining recognition in open source", "building a strong open source profile", "becoming a valuable contributor to open source projects", "tips for building a strong reputation in open source", "effectively highlight open source contributions", "open source contribution", "open source contribution for beginners", "Open Source", "Open Source Community"]
+keywords: ["open source secret sauce", "how to make a lasting impact in open source", "open source resume builder", "building open source resume", "finding issues in open source", "addressing issues in open source", "gaining recognition in open source", "building a strong open source profile", "becoming a valuable contributor to open source projects", "tips for building a strong reputation in open source", "effectively highlight open source contributions", "open source contribution", "open source contribution for beginners", "Open Source", "Open Source Community"]
 ---
 
-In this chapter, we'll share some lesser-known strategies and tips for making a lasting impact in the open source community. We'll discuss how to focus on open issues, gain traction in your contributions, and develop your open source resume using OpenSauced.
+In this chapter, we'll share some lesser-known strategies and tips for making a lasting impact in the open source community. We'll discuss how to focus on open issues, gain traction in your contributions, and develop your open source resume.
 
 ## Open Issues — More than PRs that Fix Typos
 
@@ -41,21 +41,21 @@ As you become more experienced in open source contributions, you may want to inc
 
 ## Building Your Open Source Resume
 
-Building a strong open source resume can help you showcase your skills, experience, and contributions to potential employers, collaborators, and the wider developer community. OpenSauced is an excellent tool for tracking your open source contributions and developing your open source resume. Let's look at how you can use OpenSauced to support your open source journey.
+Building a strong open source resume can help you showcase your skills, experience, and contributions to potential employers, collaborators, and the wider developer community. Here are several effective ways to build and share your open source portfolio:
 
-1. **Sign up for an OpenSauced account**: if you haven't already created an account, visit [opensauced.pizza](https://opensauced.pizza/) and sign up for an account using your GitHub credentials.
+### Portfolio Building Options
 
-2. **Visit Your Public Profile Page**: After signing up, a public profile page will be created for you. This page will display your GitHub profile information and a list of your open source contributions. You can navigate to it by clicking on your username in the top right corner of the page.
+1. **[Contributor.info](https://github.com/open-sauced/contributor.info)**: An open-source tool that renders and displays your contribution data. You can use it to create a personalized page showcasing your open source activity across projects.
 
-   ![Navigating to public profile page at OpenSauced](../_assets/images/opensauced-profile.png)
+2. **GitHub Profile README**: Your [GitHub profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) is a pinned repository that displays at the top of your profile. Use it to highlight your best contributions, link to key pull requests, list projects you've worked on, and add badges or contribution stats. This is often the first thing recruiters and collaborators see.
 
-3. **Build Your Open Source Resume**: From here, you'll be able to add highlights to Pull Requests and Issues that you've contributed to. You can also add a description and links to your open source resume. These will be aggregated into a single page that you can share with others, as well as a summary of your contributions that will be displayed on your public profile page.
+3. **Personal Blog Posts**: Write about your contribution experiences—what you learned, challenges you overcame, and the impact of your work. Blog posts demonstrate communication skills and provide context that raw contribution numbers cannot. Platforms like Dev.to, Hashnode, or your own blog work well.
 
-Let's showcase our guestbook contribution from the previous chapter! In your profile, you'll see a "Highlights" section with a text input. When you click this, you'll be able to add a title, some thoughts, and a link to your PR. This will be displayed on your public profile page. Let's add a highlight for our guestbook contribution.
+4. **LinkedIn and Social Media**: Share your merged pull requests, completed issues, and project milestones on LinkedIn, X (Twitter), or Mastodon. Professional visibility helps employers discover your work. Consider adding open source contributions to your LinkedIn Experience section or as featured projects.
 
 ### Effectively Highlight Your Contributions
 
-Important information to include when you're highlighting your contributions:
+Important information to include when showcasing your contributions:
 
 - New material you've created,
 - Project details (tools, libraries, size, and complexity),
@@ -63,22 +63,20 @@ Important information to include when you're highlighting your contributions:
 - The details of your contribution including improvements and impacts made on the project and on the community,
 - Collaboration and teamwork details.
 
-### Formatting Your Highlight
+### Formatting Your Contribution Stories
 
 To be most effective in highlighting your contributions, we recommend using the following format:
 
-- **Description**: When highlighting your contribution, we recommend mentioning the impact that it had on the overall project. This would be helpful in highlighting your qualifications for job positions, especially if you have employment gaps. Consider using the following model to help you craft this highlight into a story:
+- **Description**: When describing your contribution, mention the impact it had on the overall project. This is especially helpful when applying for jobs or explaining employment gaps. Consider using this model to craft your story:
   - Success verb + noun + metric + outcome.
-  - Example: While I was reviewing some pull requests for this year's GirlScript Summer of Code, I noticed that most of them would not merge in spite of me and the owner giving approvals. So, I **created a GitHub Action where pull requests automatically merge once they have passed the deployment steps(successive verb + noun)**, which **increased productivity rates by 80%(metric + outcome).**
-- **Add a repo**: Provide the complete name of the repository to which you are making contributions.
-- **URL**: Paste the URL to your pull request, issue or your blog post.
+  - Example: While I was reviewing some pull requests for this year's GirlScript Summer of Code, I noticed that most of them would not merge in spite of me and the owner giving approvals. So, I **created a GitHub Action where pull requests automatically merge once they have passed the deployment steps (success verb + noun)**, which **increased productivity rates by 80% (metric + outcome).**
+- **Repository**: Provide the complete name of the repository to which you made contributions.
+- **URL**: Paste the URL to your pull request, issue, or blog post so others can verify and learn from your work.
 
-  ![Adding a highlight to a profile at OpenSauced](../_assets/images/opensauced-highlights.png)
+### Share Your Portfolio
 
-- **Share it!**: Once you've built up a portfolio of open source contributions, you can share your OpenSauced resume with others by clicking the share button in the header of your profile page. This can be especially helpful when applying for jobs, networking with other developers, or promoting your work in the open source community.
+Once you've built up a portfolio of open source contributions, share it widely—in your resume, job applications, social profiles, and when networking with other developers. Consistently showcasing your work helps you stand out in the open source community and the job market.
 
-By leveraging OpenSauced to track your open source contributions and develop your resume, you'll be better equipped to showcase your skills, experience, and impact in the open source community. Additionally, you can refer to the [Job Seekers Guide](https://opensauced.pizza/docs/opensauced-guides/job-seekers-guide/job-seekers-guide-introduction/) in our docs to learn how to use OpenSauced to land a job in the tech industry.
-
-In conclusion, getting started with open source contributions and making a lasting impact on the projects you work on requires a combination of technical skills, collaboration, and persistence. By focusing on open issues, gaining traction in your contributions, and leveraging tools like OpenSauced, you'll be well on your way to a successful and fulfilling open source journey.
+In conclusion, getting started with open source contributions and making a lasting impact on the projects you work on requires a combination of technical skills, collaboration, and persistence. By focusing on open issues, gaining traction in your contributions, and actively building and sharing your open source resume through these modern tools and platforms, you'll be well on your way to a successful and fulfilling open source journey.
 
 In the [next chapter](types-of-contributions.md), we will discuss various types of open source contributions.
