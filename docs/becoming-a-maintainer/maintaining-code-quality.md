@@ -55,6 +55,22 @@ Setting up testing can help ensure that new contributions don't break existing f
 
 If some tests in the new pull request don't pass the checks, contact the contributor and ask them to fix the failing tests. Sometimes, the contributor might need help understanding why the tests are failing. In these cases, you need to work with the contributor to help them understand the problem and fix the failing tests.
 
+Here are examples of running tests in different languages and frameworks:
+
+```bash
+# JavaScript / TypeScript (using Jest or Vitest)
+npm test
+
+# Python (using pytest)
+pytest tests/
+
+# Go
+go test ./...
+
+# Rust
+cargo test
+```
+
 To learn more about testing, please refer to [this section](maintainer-powerups.md#testing) in the "Maintainer Power Ups" chapter.
 
 ### Code Quality Check
@@ -62,6 +78,14 @@ To learn more about testing, please refer to [this section](maintainer-powerups.
 It is important to check for code quality and good software engineering practices when conducting code reviews. This includes checking for proper variable naming, adherence to coding standards, and easy-to-read and understand code. A coding style guide is encouraged to help contributors understand your project's coding standards.
 
 Many tools can help you check for code quality. You can set up linting for your project to ensure there are no syntax errors or style issues. You can also set up code scanning tools to check for security vulnerabilities and other issues in the codebase.
+
+Here are some popular linting and formatting tools across different languages:
+
+- **JavaScript / TypeScript**: [ESLint](https://eslint.org/) for linting, [Prettier](https://prettier.io/) for formatting, or [Biome](https://biomejs.dev/) for both
+- **Python**: [Ruff](https://docs.astral.sh/ruff/) for linting and formatting, or [flake8](https://flake8.pycqa.org/) with [Black](https://black.readthedocs.io/)
+- **Go**: [golangci-lint](https://golangci-lint.run/) for linting; `gofmt` is built into the language for formatting
+- **Rust**: [Clippy](https://doc.rust-lang.org/clippy/) for linting; `rustfmt` is built into the toolchain for formatting
+- **Java**: [Checkstyle](https://checkstyle.org/) for style enforcement, [SpotBugs](https://spotbugs.github.io/) for bug detection
 
 To learn more about these tools, please refer to [this section](maintainer-powerups.md#code-scanning-tools) in the "Maintainer Power Ups" chapter.
 

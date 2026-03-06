@@ -41,6 +41,36 @@ Code scanning is a tool for detecting security vulnerabilities, possible bugs, a
 
 Setting up actions to run tests is helpful to ensure your app functions and performs as it should and that no regressions occur with new changes. [Cypress GitHub Action](https://docs.cypress.io/guides/continuous-integration/github-actions) is one of the examples of actions for E2E testing. You can also check out [Is Website Vulnerable](https://github.com/marketplace/actions/is-website-vulnerable) to find publicly known security vulnerabilities in JavaScript libraries' websites or [Step CI Action](https://github.com/marketplace/actions/step-ci-action) for API quality assurance.
 
+#### Language-Specific CI Examples
+
+Open source projects use different languages and frameworks, so your CI setup will vary. Here are brief examples of GitHub Actions workflow steps for testing in popular languages:
+
+```yaml
+# JavaScript / TypeScript
+- uses: actions/setup-node@v4
+  with:
+    node-version: 22
+- run: npm ci
+- run: npm test
+
+# Python
+- uses: actions/setup-python@v5
+  with:
+    python-version: "3.12"
+- run: pip install -r requirements.txt
+- run: pytest
+
+# Go
+- uses: actions/setup-go@v5
+  with:
+    go-version: "1.22"
+- run: go test ./...
+
+# Rust
+- uses: dtolnay/rust-toolchain@stable
+- run: cargo test
+```
+
 ### Creating and Customizing Actions
 
 You can search for available GitHub Actions on the [GitHub Marketplace](https://github.com/marketplace?type=actions). But if you can't find the one you need, you can create or customize your own actions from existing GitHub Actions.

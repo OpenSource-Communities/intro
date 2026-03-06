@@ -171,7 +171,23 @@ Now that you have a new branch, you can make changes to the codebase. Always fol
 
 You should always run and check your changes in your local environment, regardless of how small they are. This is important to ensure they work as expected and won't break production.
 
-You can find the instructions on how to run a project locally in the README file or in the contributing guidelines.
+You can find the instructions on how to run a project locally in the README file or in the contributing guidelines. Here are some common commands for running projects in different languages:
+
+```bash
+# JavaScript / TypeScript (Node.js)
+npm install
+npm run dev
+
+# Python
+pip install -r requirements.txt
+python main.py
+
+# Go
+go run .
+
+# Rust
+cargo run
+```
 
 ### 6. Add and Commit the Changes
 
