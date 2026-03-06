@@ -33,7 +33,7 @@ We will walk through the steps to set up your project in GitHub. Although it's n
 - Initialize the repository with a README file and add a license.
 - Click the "Create repository" button.
 
-![setting up a repo](../_assets/gifs/set-up-repo.gif)
+![Animated walkthrough of creating a new GitHub repository, entering a name and description, and initializing with a README](../_assets/gifs/set-up-repo.gif)
 
 If you're using our starter idea, you could use the following:
 
@@ -332,7 +332,7 @@ body:
 
 - In your repository, click the "Issues" tab and then the "New issue" button.
 
-  ![create issue](../_assets/images/create-issue.png)
+  ![GitHub Issues tab showing the green New Issue button used to create a new issue in a repository](../_assets/images/create-issue.png)
 
 - Select the type of issue you want to create. In this example, we'll select Feature Request.
 - Write your issue. If you're following along the example, we'll write a feature request for a new resource:
@@ -347,7 +347,7 @@ body:
 
 - Once you've completed the issues, click "Submit new issue."
 
-  ![feature-form.png](../_assets/images/feature-form.png)
+  ![Completed feature request issue form on GitHub with type, current behavior, suggested solution, and code of conduct sections filled in](../_assets/images/feature-form.png)
 
 ### Promoting Your Project
 

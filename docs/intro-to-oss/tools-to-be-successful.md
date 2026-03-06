@@ -64,7 +64,7 @@ To practice using GitHub, we're going to walk through creating a repository, clo
 
    Choose yourself as the owner of the repository, and enter a name for your repository. For this example, we'll use `practice-repository`.
 
-   ![Create new repository on GitHub](../_assets/images/new-repo.png)
+   ![GitHub new repository creation form showing fields for owner, repository name, visibility options, and initialization settings](../_assets/images/new-repo.png)
 
    Choose whether you want it to be public or private. You can also choose to initialize the repository with a README file, a `.gitignore` file, and/or a license.
 

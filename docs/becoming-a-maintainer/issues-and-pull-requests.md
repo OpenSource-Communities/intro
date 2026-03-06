@@ -105,7 +105,7 @@ If the author does not address the issue or respond to your initial comment, rep
 
 If multiple contributors fail the same set of tests, the tests may be flaky or broken and need your attention. In those situations, you want to clarify to the contributor that the failing test is not their fault and will be resolved.
 
-![Failed automated tests](../_assets/images/failed-automated-tests.png)
+![GitHub pull request showing failed automated test checks with red X marks indicating test failures](../_assets/images/failed-automated-tests.png)
 
 ### Spam Pull Requests
 

@@ -51,7 +51,7 @@ OpenSauced is a powerful tool for finding open source projects to contribute to.
 
 1. **Sign up for an account**: Visit https://www.opensauced.pizza/ and sign up for an account using your GitHub credentials.
 
-   ![OpenSauced signup](../_assets/images/opensauced-signup.png)
+   ![OpenSauced signup page showing the option to sign up with GitHub credentials](../_assets/images/opensauced-signup.png)
 
    During the sign up process, you'll be asked to pick some interests and set your timezone. This will help OpenSauced recommend projects that align with your interests and schedule.
 
@@ -59,7 +59,7 @@ OpenSauced is a powerful tool for finding open source projects to contribute to.
 
 3. **Search for projects**: In the Explore dashboard, you can see a list of repositories and their relevant activity levels and engagement levels that are currently trending. You can also search for projects by typing in the search bar. You can search for projects by name, description, or topic and use this tool to find something that resonates with you.
 
-   ![Explore dashboard](../_assets/images/opensauced-explore.png)
+   ![OpenSauced Explore dashboard showing a list of trending repositories with activity levels and engagement metrics](../_assets/images/opensauced-explore.png)
 
 4. **Save projects to your Insights pages**: When you find projects you're interested in, you can add them to "Insights" pages that give you more details about the activity over the projects. Or, if you'd rather just dive in and contribute, you can skip to the next step.
 
@@ -131,7 +131,7 @@ If the contributing guidelines do not state how to claim an issue, you can ask t
 
 You can leave a comment on the issue, like, "Can I please be assigned to this issue?" When the maintainer has assigned you, you'll notice that your username is now under the "Assignees" section.
 
-![Issue assignees section on GitHub](../_assets/images/issue-assign.png)
+![GitHub issue sidebar showing the Assignees section with a contributor assigned to the issue](../_assets/images/issue-assign.png)
 
 ## Contribution Workflow
 
@@ -219,7 +219,7 @@ It can be challenging to read and fill in a pull request template. Here is some 
 
    Here is an example of a pull request template at OpenSauced in preview mode:
 
-   ![PR template in preview mode](../_assets/images/pr-template-preview.png)
+   ![GitHub pull request template in preview mode showing rendered sections for description, related tickets, screenshots, and QA steps](../_assets/images/pr-template-preview.png)
 
 2. **Headings**
 
@@ -348,7 +348,7 @@ Every project is unique. Each has its own pull request template structure and re
 
   You can find the issue number right after the title, as shown below.
 
-  ![issue number](../_assets/images/issue-number.png)
+  ![GitHub issue page highlighting the issue number displayed next to the issue title](../_assets/images/issue-number.png)
 
   :::info
 
@@ -398,7 +398,7 @@ You'll need to have these tools downloaded and installed on your local machine:
    - Add a title, e.g., `Feature: Add @GITHUB-USERNAME as a contributor`. <br/> Change "@GITHUB-USERNAME" to your GitHub username.
    - Complete the form. Read the instructions under each input label and fill in the textareas using the example shown in the screenshot below with the red line.
 
-     ![guestbook issue form](../_assets/images/guestbook-issue-form.png)
+     ![OpenSauced guestbook issue form with fields for contributor name, GitHub username, and contribution type](../_assets/images/guestbook-issue-form.png)
 
    - Click the "Submit new issue" button.
 
@@ -410,12 +410,12 @@ You'll need to have these tools downloaded and installed on your local machine:
 
    Follow the instructions to add yourself to the guestbook. After you finish and click enter, you must click enter again to confirm your choices.
 
-   ![Adding contributor with CLI on a terminal](../_assets/gifs/cli-tool.gif)
+   ![Animated terminal session showing the all-contributors CLI tool prompting for contributor username and contribution type](../_assets/gifs/cli-tool.gif)
 
 7. Run `npm run contributors:generate` in your terminal to generate the guestbook on the README.
 8. Copy and paste the Markdown of the README in [Markdown Live Preview](https://markdownlivepreview.com/) and take a screenshot of your profile being generated as the example below. You will need this later when creating a pull request.
 
-   ![Profile generated on README](../_assets/images/profile-generated.png)
+   ![Markdown preview of the README showing a newly generated contributor profile with avatar and contribution badges](../_assets/images/profile-generated.png)
 
    :::tip
 
@@ -449,7 +449,7 @@ You'll need to have these tools downloaded and installed on your local machine:
 
 Here's what a completed Pull Request Template for the guestbook looks like. Make sure yours looks like this, updated with your unique information.
 
-![Completed Pull Request Template](../_assets/images/completed-pr-template.png)
+![Completed pull request template on GitHub with all sections filled in, including description, related issue, and screenshot](../_assets/images/completed-pr-template.png)
 
 Congratulations on your first contribution! 🎉
 
