@@ -175,7 +175,7 @@ You can also create custom issue templates using YAML frontmatter:
 - Add a folder called `ISSUE_TEMPLATE` inside the `.github` folder.
 
   :::note
-  
+
   The name of this folder should be in all caps, or else it will not work on GitHub.
 
   :::

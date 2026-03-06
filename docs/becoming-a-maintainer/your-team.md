@@ -68,8 +68,8 @@ Each team should have a specific set of permissions that allow them to do what t
 - **Read**: Allow members to view code, issues, and pull requests. <br/>_Suitable for stakeholders, external collaborators, or those needing general visibility._
 - **Triage**: Grant permission to manage issues and pull requests (assign, label, comment, close) but not directly modify code. <br/>_Ideal for triage teams and community managers._
 - **Write**: Allow members to push code, create branches, and open pull requests. <br/>_Necessary for developers and maintainers who are actively contributing to the codebase._
-- **Maintain**: Grant broader management permissions, including deleting branches, editing protected files, and managing releases. <br/> _Suitable for core maintainers responsible for project health._
-- **Admin**: Provide full control over the repository, including sensitive actions like deleting or changing its visibility. <br/>_Reserved for trusted individuals or those with specific administrative needs._<br/>
+- **Maintain**: Grant broader management permissions, including deleting branches, editing protected files, and managing releases. <br/>_Suitable for core maintainers responsible for project health._
+- **Admin**: Provide full control over the repository, including sensitive actions like deleting or changing its visibility. <br/>_Reserved for trusted individuals or those with specific administrative needs._
 
 To access your team's permissions, navigate to your team's page on GitHub and click the "Settings" tab. From there, you can update your team's permissions in the "Member privileges" section.
 

@@ -156,7 +156,7 @@ It's essential to have a code of conduct to ensure that everyone feels welcome a
    - [ ] Add a link to the code of conduct in your README and CONTRIBUTING files.
 
    :::note
-   
+
    Make sure you attribute the code of conduct to the original author.
 
    :::
@@ -187,7 +187,7 @@ Below are the steps to create the template. After the steps, we'll share with yo
 
 Here's what we use at OpenSauced:
 
-```yml
+```yaml
 name: 🐛 Bug report
 description: Create a bug report to help us improve Open Sauced 🍕
 title: "Bug: "
@@ -266,7 +266,7 @@ Now, let's follow the same process and make a feature request template.
 
 Here's what we use at OpenSauced:
 
-```yml
+```yaml
 name: 🚀 Feature request
 description: Suggest an idea for this project 💡
 title: "Feature: "

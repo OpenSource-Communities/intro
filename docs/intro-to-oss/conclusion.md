@@ -5,7 +5,6 @@ sidebar_label: "Conclusion"
 keywords: ["conclusion", "steps to continue open source contributions", "Open Source", "Open Source Community"]
 ---
 
-
 As we wrap up this course on getting started with open source, let's recap the key takeaways and look at what's next in your open source journey.
 
 ## Takeaways
@@ -28,7 +27,6 @@ By understanding these concepts and applying the strategies we've discussed, you
 
 ## What's Next?
 
-
 With the knowledge and tools you've gained from this course, you're ready to dive into the world of open source and start making meaningful contributions. Here are some next steps to help you continue your open source journey:
 
 1. **Identify your interests and goals**: Before you start contributing to open source projects, take some time to think about your interests, passions, and goals. This will help you find projects that align with your values and objectives.
@@ -44,6 +42,5 @@ With the knowledge and tools you've gained from this course, you're ready to div
 6. **Share your experiences**: Document your open source journey by writing blog posts, creating tutorials, or giving presentations. This will not only help others learn from your experiences but also establish you as a thought leader in the open source community.
 
 7. **Continue learning**: Open source is a dynamic and ever-evolving field. Stay current with the latest tools, techniques, and best practices by attending workshops, taking online courses, and reading articles and books on open source development. We've included an [additional resources section](additional-resources.md) for more information.
-
 
 In conclusion, embarking on an open source journey is a rewarding and enriching experience that can help you develop new skills, connect with like-minded individuals, and make a lasting impact on the projects you work on. With the knowledge and tools you've gained from this course, you're well-prepared to take on the exciting challenges and opportunities that await you in the open source world. So go forth and start contributing—the open source community eagerly awaits your participation!

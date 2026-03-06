@@ -153,7 +153,7 @@ Follow these steps to add a new chapter to our course:
 
    Here is an example:
 
-   ```yml
+   ```yaml
    ---
    id: what-is-open-source
    title: "What is Open Source?"
