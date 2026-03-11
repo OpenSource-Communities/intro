@@ -94,7 +94,7 @@ You should have initialized your project with a license, but if you did not, you
 
 ### Setting Up Contributing Guidelines
 
-Your project will likely have similar contribution guidelines to other projects. You can follow these steps to create guidelines and provide a template. However, if you need a specific example, you can always refer to the [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/). Feel free to use those guidelines and update them as you see fit for your project.
+Your project will likely have similar contribution guidelines to other projects. You can follow these steps to create guidelines and provide a template. However, if you need a specific example, you can always refer to the [OpenSauced Contributing Guidelines](https://github.com/github/opensource.guide/blob/HEAD/CONTRIBUTING.md). Feel free to use those guidelines and update them as you see fit for your project.
 
 - [ ] Create a new file named `CONTRIBUTING.md` in the root of your repository.
 - [ ] Outline the process for submitting issues and pull requests.
@@ -235,7 +235,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://opensauced.pizza/docs/contributing/code-of-conduct/)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/open-sauced/docs/blob/main/docs/contributing/introduction-to-contributing.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
@@ -243,7 +243,7 @@ body:
     id: contribution
     attributes:
       label: Contributing Docs
-      description: If you plan on contributing code please read - [Contribution Guide](https://opensauced.pizza/docs/contributing/introduction-to-contributing/)
+      description: If you plan on contributing code please read - [Contribution Guide](https://github.com/open-sauced/docs/blob/main/docs/contributing/introduction-to-contributing.md)
       options:
         - label: I agree to follow this project's Contribution Docs
           required: false
@@ -314,7 +314,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://opensauced.pizza/docs/contributing/code-of-conduct/)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/open-sauced/docs/blob/main/docs/contributing/code-of-conduct.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
@@ -322,7 +322,7 @@ body:
     id: contribution
     attributes:
       label: Contributing Docs
-      description: If you plan on contributing code please read - [Contribution Guide](https://opensauced.pizza/docs/contributing/introduction-to-contributing/)
+      description: If you plan on contributing code please read - [Contribution Guide](https://github.com/open-sauced/docs/blob/main/docs/contributing/introduction-to-contributing.md)
       options:
         - label: I agree to follow this project's Contribution Docs
           required: false
@@ -373,12 +373,12 @@ In order to maintain a healthy project where contributors feel valued, it's impo
 
 Once your project is up and running, monitoring its health and activity is important. Here are some ways to do that:
 
-- Create an OpenSauced [Workspace](https://opensauced.pizza/docs/features/workspaces/) to track your project's activity.
+- Create an OpenSauced [Workspace](https://github.com/open-sauced/docs/blob/main/docs/features/workspaces.md) to track your project's activity.
 - Set up notifications for new issues and pull requests.
 - Solicit feedback from users and contributors using discussions or surveys.
 - Reflect on the project's direction and make adjustments as necessary.
 
-You can learn more about how to create a successful project with OpenSauced with our [Maintainers Guide to OpenSauced](https://opensauced.pizza/docs/maintainers/maintainers-guide-to-open-sauced/).
+You can learn more about how to create a successful project with OpenSauced with our [Maintainers Guide to OpenSauced](https://github.com/open-sauced/docs/blob/main/docs/maintainers/maintainers-guide.md).
 
 ---
 

@@ -35,9 +35,9 @@ One of the first challenges you might face when learning how to contribute to op
 
 2. **Follow your interests**: Think about the tools, frameworks, and libraries you use or are interested in learning more about. Many of these projects are open source and welcome contributions from the community.
 
-3. **Join open source communities**: There are numerous online communities, forums, and chat platforms dedicated to open source development. By joining these communities, you can connect with other developers, discover new projects, and find collaboration opportunities. In the [Community](https://github.com/orgs/open-sauced/discussions), for example, we share good first issues, cool GitHub projects, and issues we have open on our repositories.
+3. **Join open source communities**: There are numerous online communities, forums, and chat platforms dedicated to open source development. By joining these communities, you can connect with other developers, discover new projects, and find collaboration opportunities. In the [Community](https://github.com/orgs/OpenSource-Communities/discussions), for example, we share good first issues, cool GitHub projects, and issues we have open on our repositories.
 
-4. **Leverage OpenSauced**: [OpenSauced](https://opensauced.pizza/) is a platform that helps developers discover and contribute to open source projects. By using OpenSauced, you can find projects that align with your interests, skills, and goals.
+4. **Leverage OpenSauced**: [OpenSauced](https://github.com/open-sauced/app) is a platform that helps developers discover and contribute to open source projects. By using OpenSauced, you can find projects that align with your interests, skills, and goals.
 
 :::tip
 
@@ -49,7 +49,7 @@ To understand how to contribute in open source, it’s important to start by fam
 
 OpenSauced is a powerful tool for finding open source projects to contribute to. To get started with OpenSauced, follow these steps:
 
-1. **Sign up for an account**: Visit https://www.opensauced.pizza/ and sign up for an account using your GitHub credentials.
+1. **Sign up for an account**: Visit https://github.com/open-sauced/app and sign up for an account using your GitHub credentials.
 
    ![OpenSauced signup](../_assets/images/opensauced-signup.png)
 
@@ -95,7 +95,7 @@ Start by reading the README and familiarizing yourself with the project. A READM
 
 Once you're familiar with the project and interested in contributing, don't jump in without reading the contributing guidelines. These guidelines are in the CONTRIBUTING file at the project's root. If the file is unavailable, you can find them in the README.
 
-Every project has different contributing rules. These rules are written in the contributing guidelines, which contain information on how to claim and work with issues, create pull requests, and preferable methods of communication. For example, you can look at the [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/).
+Every project has different contributing rules. These rules are written in the contributing guidelines, which contain information on how to claim and work with issues, create pull requests, and preferable methods of communication. For example, you can look at the [OpenSauced Contributing Guidelines](https://github.com/open-sauced/docs/blob/main/docs/contributing/introduction-to-contributing.md).
 
 Some projects also have conventions, such as code and Markdown style, how to write commit messages, pull requests and issue titles, and so on. You might find these in their style guide or contributing guidelines.
 
