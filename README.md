@@ -1,6 +1,6 @@
 # Open Source Education Path
 
-**Welcome to the intro repository!**
+**Welcome to the intro repository !**
 
 This repository hosts comprehensive educational content for people who want to learn to contribute to open source projects and for those who want to become project maintainers.
 
