@@ -211,7 +211,7 @@ Most projects provided a pull request template that is shown and needs to be fil
 
 ##### Tips to Fill In a Pull Request Template
 
-It can be challenging to read and fill in a pull request template. Here is some tips on how to fill one:
+It can be challenging to read and fill in a pull request template. Here are some tips on how to fill one out:
 
 1. **Preview Mode**
 
