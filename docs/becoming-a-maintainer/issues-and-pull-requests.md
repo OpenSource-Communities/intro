@@ -2,7 +2,7 @@
 id: issues-and-pull-requests
 title: "How to Handle Open Issues and Pull Requests"
 sidebar_label: "Managing Issues and Pull Requests"
-keywords: ["issues and pull requests", "how to handle issues and pull requests", "issues management in open source", "best practices for issue triage", "managing pull requests open source", "pull requests reviews", "Issue and Pull Request Highlights with OpenSauced", "handling security vulnerabilities in open source", "open source maintainers", "Open Source", "Open Source Community"]
+keywords: ["issues and pull requests", "how to handle issues and pull requests", "issues management in open source", "best practices for issue triage", "managing pull requests open source", "pull requests reviews", "showcasing contributor contributions", "handling security vulnerabilities in open source", "open source maintainers", "Open Source", "Open Source Community"]
 ---
 
 One of the core responsibilities of an open source maintainer is triaging open issues and reviewing pull requests. In this chapter, we will talk about how to best handle open issues, pull requests, and security vulnerabilities.
@@ -135,21 +135,24 @@ Sometimes, pull requests can remain open for weeks or months at a time. They're 
 
 If you have repeatedly tried to reach out and get no response, you should close the pull request or take it over. If you are taking it over, tell the contributor you are bringing this to the finish line because it is blocking other pull requests.
 
-## Issue and Pull Request Highlights with OpenSauced
+## Showcasing Contributor Achievements
 
-The [Highlights](https://opensauced.pizza/docs/features/highlights/) feature on OpenSauced is a place for you to showcase recent achievements with the open source community. This is a place to introduce your project to potential new contributors and talk about issues that need attention from the community.
-
-![Highlights GIF](../_assets/gifs/highlight.gif)
+Recognizing and showcasing contributor achievements helps build community morale and attract new contributors. Here are effective ways to highlight issues and pull requests:
 
 ### Issue Highlights
 
-When writing issue highlights, you will want to talk about the issue, how the contributor solved it, and how the solution impacted the project. Once you post a highlight on OpenSauced, re-share it on other platforms like Twitter or LinkedIn for increased visibility. Regularly acknowledging and thanking your contributors, especially in public, will strengthen their loyalty to the project and attract new contributors.
+When showcasing resolved issues, talk about the problem, how the contributor solved it, and the impact of the solution on the project. Share these stories on your project's README, blog, or social media (X, LinkedIn, Mastodon). Regularly acknowledging and thanking contributors in public strengthens their loyalty to the project and demonstrates the kind of contributions you value.
 
 ### Pull Request Highlights
 
-When writing pull request highlights, you will want to talk about the changes made, acknowledge the author, and showcase how this improves the project. Link the pull request in your highlight for those interested in taking a closer look at the changes made. This is another way to gain attention for the project because it is a first-hand look at what types of contributions you are looking for and how well you work with contributors.
+When highlighting merged pull requests, describe the changes made, acknowledge the author by name and handle, and explain how it improves the project. Always link to the pull request so others can review the work. This gives potential contributors a first-hand look at the types of contributions you welcome and how you collaborate with contributors.
 
-To learn more about how the Highlights feature works, please read through the [OpenSauced documentation](https://opensauced.pizza/docs/features/highlights/).
+### Where to Share
+
+- **Project README or CHANGELOG**: Add a "Contributors" or "Recent Contributions" section that links to notable PRs and issues.
+- **GitHub profile README or project website**: Feature contributor spotlights or release notes that call out specific contributions.
+- **Social media**: Share merged PRs and resolved issues with a thank-you to the contributor. Tag them when appropriate for increased visibility.
+- **Release notes and newsletters**: Include contributor acknowledgments in project updates.
 
 ## Promptly Respond and Address Concerns
 

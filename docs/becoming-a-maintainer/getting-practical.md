@@ -356,7 +356,7 @@ Now that you have your project set up, it's time to promote it! Here are some id
 - Share your project on social media, forums, and relevant communities.
 - Write blog posts or tutorials about your project.
 - Present your project at meetups, conferences, or online webinars.
-- Create a Highlight on OpenSauced to showcase your project.
+- Post about your project on LinkedIn, X (Twitter), or Mastodon for professional visibility.
 - Share your project with friends, family, and colleagues.
 - Ask for feedback from your network.
 
@@ -366,7 +366,7 @@ In order to maintain a healthy project where contributors feel valued, it's impo
 
 - Use tools like the [All Contributors](https://allcontributors.org) bot to acknowledge different types of contributions.
 - Highlight contributors in your README or on your project's website.
-- Create a Highlight on OpenSauced to showcase contributors.
+- Share contributor achievements on social media with a thank-you and link to their PR or issue.
 - Thank contributors publicly for their work.
 
 ### Monitoring Your Project

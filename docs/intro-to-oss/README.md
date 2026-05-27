@@ -62,9 +62,9 @@ As you work through the course, we encourage you to experiment with the tools an
 
 ## Building Your Open Source Resume
 
-One of the unique features of this course is that it guides you to build your open source resume using OpenSauced. OpenSauced is a platform that helps you track and showcase your open source contributions, making it easier to get noticed by potential employers and collaborators.
+One of the unique features of this course is that it guides you to build your open source resume. You'll learn how to showcase your contributions using tools like Contributor.info, GitHub profile READMEs, blog posts, and social media—making it easier to get noticed by potential employers and collaborators.
 
-To learn more about using OpenSauced to build your open source resume, check out the "[Building Your Open Source Resume](the-secret-sauce.md#building-your-open-source-resume)" section in "The Secret Sauce" chapter.
+To learn more about building your open source resume, check out the "[Building Your Open Source Resume](the-secret-sauce.md#building-your-open-source-resume)" section in "The Secret Sauce" chapter.
 
 ## Expectations
 
