@@ -392,7 +392,32 @@ You'll need to have these tools downloaded and installed on your local machine:
 
 The guestbook uses a simple, conflict-free contribution system. Instead of editing a shared file (which causes merge conflicts), you'll create your own JSON file. This means your contribution won't conflict with others!
 
-#### Step 1: Fork and Clone the Repository
+#### Step 1: Create an Issue
+
+Before contributing, create an issue to document your intention. This is an important practice in open source:
+
+1. Go to the [guestbook repository](https://github.com/OpenSource-Communities/guestbook) on GitHub.
+2. Click the "Issues" tab on the top bar.
+3. Click the green "New issue" button at the top right.
+4. Click the "Get started" button to add contributors.
+5. Add a title, e.g., `feat: Add @YOUR-USERNAME as a contributor`. Replace `@YOUR-USERNAME` with your GitHub username.
+6. Complete the form:
+   - Fill in your name
+   - Add your GitHub username
+   - (Optional) Add your location
+   - Share what you're learning
+   - Add a fun fact about yourself
+7. Click the "Submit new issue" button.
+
+After submitting, **note your issue number** (e.g., #123) - you'll need this when creating your pull request!
+
+:::tip
+
+Creating an issue first is a best practice in open source. It helps maintainers track contributions and allows for discussion before work begins.
+
+:::
+
+#### Step 2: Fork and Clone the Repository
 
 1. Fork the [guestbook repository](https://github.com/OpenSource-Communities/guestbook).
 2. Clone your forked repository to your computer:
@@ -403,7 +428,7 @@ The guestbook uses a simple, conflict-free contribution system. Instead of editi
 
 Replace `YOUR-USERNAME` with your actual GitHub username.
 
-#### Step 2: Install Dependencies
+#### Step 3: Install Dependencies
 
 Run this command in your terminal to install the required packages:
 
@@ -411,7 +436,7 @@ Run this command in your terminal to install the required packages:
 npm install
 ```
 
-#### Step 3: Create a New Branch
+#### Step 4: Create a New Branch
 
 Create a new branch for your contribution:
 
@@ -421,7 +446,7 @@ git checkout -b feat/add-YOUR-USERNAME
 
 Replace `YOUR-USERNAME` with your actual GitHub username.
 
-#### Step 4: Create Your Contributor File
+#### Step 5: Create Your Contributor File
 
 1. Navigate to the `contributors/` folder in your code editor.
 2. Create a new file named `YOUR-USERNAME.json` (use your actual GitHub username in lowercase).
@@ -455,7 +480,7 @@ Replace `YOUR-USERNAME` with your actual GitHub username.
 
 For this first contribution, you can use `["code", "doc"]`.
 
-#### Step 5: Preview Your Contribution (Optional but Recommended)
+#### Step 6: Preview Your Contribution (Optional but Recommended)
 
 You can preview how your profile will look before submitting:
 
@@ -485,7 +510,7 @@ This will show you:
    📖 doc
 ```
 
-#### Step 6: Commit Your Changes
+#### Step 7: Commit Your Changes
 
 Once you're satisfied with your contributor file:
 
@@ -494,13 +519,13 @@ git add contributors/YOUR-USERNAME.json
 git commit -m "feat: Add YOUR-USERNAME as a contributor"
 ```
 
-#### Step 7: Push to Your Fork
+#### Step 8: Push to Your Fork
 
 ```bash
 git push origin feat/add-YOUR-USERNAME
 ```
 
-#### Step 8: Create a Pull Request
+#### Step 9: Create a Pull Request
 
 1. Go to your forked repository on GitHub.
 2. Click the "Compare & pull request" button.
@@ -514,12 +539,25 @@ feat: Add @YOUR-USERNAME as a contributor
 **Pull Request Template - Key Sections to Fill:**
 
 - **Type of Contribution**: Check "🎉 Adding myself as a new contributor"
+
 - **Checklist**:
   - ✅ I created a file named `contributors/[my-github-username].json`
   - ✅ I filled in all required fields
   - ✅ I only added ONE file
   - ✅ My JSON file is valid
   - ✅ I'm taking the Intro to Open Source course
+
+- **Link Your Issue**: In the PR description, add:
+  ```
+  Closes #123
+  ```
+  Replace `123` with your actual issue number from Step 1. This will automatically close the issue when your PR is merged!
+
+:::info
+
+Using the keyword "Closes" followed by the issue number (e.g., `Closes #123`) is important! It automatically links your PR to the issue and closes the issue when the PR is merged. This is a best practice in open source development.
+
+:::
   
 - **About Me**: Fill in your details:
   - Name: Your full name
