@@ -379,7 +379,7 @@ After your contribution has been submitted and reviewed, one of the following ou
 
 ## Let's Get Practical
 
-Now that you know how to find and contribute to open source projects, it's time to put your skills into practice. Let's do this by contributing to OpenSauced's [guestbook repository](https://github.com/open-sauced/guestbook).
+Now that you know how to find and contribute to open source projects, it's time to put your skills into practice. Let's do this by contributing to OpenSauced's [guestbook repository](https://github.com/OpenSource-Communities/guestbook).
 
 ### Prerequisites
 
@@ -390,72 +390,242 @@ You'll need to have these tools downloaded and installed on your local machine:
 
 ### Getting Started
 
-1. Create an issue by following these instructions:
+The guestbook uses a simple, conflict-free contribution system. Instead of editing a shared file (which causes merge conflicts), you'll create your own JSON file. This means your contribution won't conflict with others!
 
-   - Click the "Issues" tab on the top bar.
-   - Click the green "New issue" button at the top right.
-   - Click the "Get started" button to add contributors.
-   - Add a title, e.g., `Feature: Add @GITHUB-USERNAME as a contributor`. <br/> Change "@GITHUB-USERNAME" to your GitHub username.
-   - Complete the form. Read the instructions under each input label and fill in the textareas using the example shown in the screenshot below with the red line.
+#### Step 1: Fork and Clone the Repository
 
-     ![guestbook issue form](../_assets/images/guestbook-issue-form.png)
-
-   - Click the "Submit new issue" button.
-
-2. Fork the [guestbook repository](https://github.com/open-sauced/guestbook).
-3. Clone your forked repository to your computer.
-4. Run `npm install` to install the dependencies.
-5. Create a new branch and use a descriptive name related to your contribution — for example, `feat/add-alice`.
-6. Run `npm run contributors:add` in your terminal.
-
-   Follow the instructions to add yourself to the guestbook. After you finish and click enter, you must click enter again to confirm your choices.
-
-   ![Adding contributor with CLI on a terminal](../_assets/gifs/cli-tool.gif)
-
-7. Run `npm run contributors:generate` in your terminal to generate the guestbook on the README.
-8. Copy and paste the Markdown of the README in [Markdown Live Preview](https://markdownlivepreview.com/) and take a screenshot of your profile being generated as the example below. You will need this later when creating a pull request.
-
-   ![Profile generated on README](../_assets/images/profile-generated.png)
-
-   :::tip
-
-   If you don't see your profile in the "Contributors" section, zoom out the screen until you can see it before taking a screenshot.
-
-   :::
-
-9. Run `git log` to check if your changes have been automatically committed. To close the log, press `Q`.
-
-   Here's what you should expect to see as your commit message:
-
+1. Fork the [guestbook repository](https://github.com/OpenSource-Communities/guestbook).
+2. Clone your forked repository to your computer:
    ```bash
-   docs: add @your_username as a contributor
+   git clone https://github.com/YOUR-USERNAME/guestbook.git
+   cd guestbook
    ```
 
-10. Push the commit to your forked repository with this command:
+Replace `YOUR-USERNAME` with your actual GitHub username.
 
-    ```bash
-    git push -u origin branch-name
-    ```
+#### Step 2: Install Dependencies
 
-11. Go to your forked repository on GitHub. Create a pull request with the title `feat: Add <@github-username> as a contributor` and fill in all areas in the pull request template. Read the [Fill In a Pull Request Template](#fill-in-a-pull-request-template) section to help you complete the template.
+Run this command in your terminal to install the required packages:
 
-    :::warning
+```bash
+npm install
+```
 
-    Your pull request will be marked as invalid and may be closed if the template is incomplete.
+#### Step 3: Create a New Branch
 
-    :::
+Create a new branch for your contribution:
 
-### Completed PR Template
+```bash
+git checkout -b feat/add-YOUR-USERNAME
+```
 
-Here's what a completed Pull Request Template for the guestbook looks like. Make sure yours looks like this, updated with your unique information.
+Replace `YOUR-USERNAME` with your actual GitHub username.
 
-![Completed Pull Request Template](../_assets/images/completed-pr-template.png)
+#### Step 4: Create Your Contributor File
+
+1. Navigate to the `contributors/` folder in your code editor.
+2. Create a new file named `YOUR-USERNAME.json` (use your actual GitHub username in lowercase).
+3. Copy this template and fill in your information:
+
+```json
+{
+  "name": "Your Full Name",
+  "github": "your-github-username",
+  "profile": "https://your-website.com",
+  "contributions": ["code", "doc"]
+}
+```
+
+**Field Explanations:**
+- `name`: Your full name as you want it displayed
+- `github`: Your GitHub username (must match the filename!)
+- `profile`: Your personal website URL, or use `https://github.com/your-username`
+- `contributions`: An array of contribution types (see options below)
+
+**Available Contribution Types:**
+- `"code"` - Code contributions
+- `"doc"` - Documentation
+- `"ideas"` - Ideas and planning
+- `"bug"` - Bug reports
+- `"tutorial"` - Tutorials
+- `"design"` - Design
+- `"review"` - Code reviews
+- `"test"` - Testing
+- `"blog"` - Blog posts
+
+For this first contribution, you can use `["code", "doc"]`.
+
+#### Step 5: Preview Your Contribution (Optional but Recommended)
+
+You can preview how your profile will look before submitting:
+
+```bash
+npm run contributors:preview YOUR-USERNAME
+```
+
+This will show you:
+- ✅ Validation status
+- 🎨 How your profile will appear in the README
+- 🏷️ Your contribution icons
+
+**Example output:**
+
+```
+✅ Contributor file validation passed!
+
+🎨 Preview of your contributor profile:
+==================================================
+👤 Name: Jane Doe
+🔗 Profile: https://janedoe.dev
+📷 Avatar: https://github.com/janedoe.png
+🎯 Contributions: code, doc
+
+🏷️  Your contribution icons:
+   💻 code
+   📖 doc
+```
+
+#### Step 6: Commit Your Changes
+
+Once you're satisfied with your contributor file:
+
+```bash
+git add contributors/YOUR-USERNAME.json
+git commit -m "feat: Add YOUR-USERNAME as a contributor"
+```
+
+#### Step 7: Push to Your Fork
+
+```bash
+git push origin feat/add-YOUR-USERNAME
+```
+
+#### Step 8: Create a Pull Request
+
+1. Go to your forked repository on GitHub.
+2. Click the "Compare & pull request" button.
+3. Fill in the pull request template:
+
+**Pull Request Title:**
+```
+feat: Add @YOUR-USERNAME as a contributor
+```
+
+**Pull Request Template - Key Sections to Fill:**
+
+- **Type of Contribution**: Check "🎉 Adding myself as a new contributor"
+- **Checklist**:
+  - ✅ I created a file named `contributors/[my-github-username].json`
+  - ✅ I filled in all required fields
+  - ✅ I only added ONE file
+  - ✅ My JSON file is valid
+  - ✅ I'm taking the Intro to Open Source course
+  
+- **About Me**: Fill in your details:
+  - Name: Your full name
+  - Location: (optional)
+  - What I'm learning: e.g., "JavaScript and open source"
+  - Fun fact: Something interesting about you!
+
+4. Click "Create pull request".
+
+:::tip
+
+Your pull request should only include ONE file: your `contributors/YOUR-USERNAME.json` file. You do NOT need to edit the README.md or any other files!
+
+:::
+
+### What Happens Next?
+
+After you submit your pull request:
+
+1. **Automated Validation** ✅
+   - GitHub Actions will automatically validate your JSON file
+   - You'll get a comment confirming your file is valid
+   - Or, it will tell you what needs to be fixed
+
+2. **Review by Maintainers** 👀
+   - A maintainer will review your PR
+   - They may ask questions or request small changes
+
+3. **Merge** 🎉
+   - Once approved, your PR will be merged to the main branch
+
+4. **Automatic Update** 🤖
+   - After merge, a GitHub Action automatically updates the README
+   - Within a few minutes, your profile will appear in the Contributors section!
+
+5. **Celebrate!** 🎊
+   - You've made your first open source contribution!
+
+### Verifying Your Contribution
+
+To verify your contribution was successful:
+
+1. Go back to the [main guestbook page](https://github.com/OpenSource-Communities/guestbook)
+2. Scroll down to the "Contributors" section
+3. Press `Ctrl+F` (or `Cmd+F` on Mac) and search for your name
+4. You should see your profile picture and name! 🎉
+
+### What Makes This Process Better?
+
+Unlike traditional contribution methods, this approach:
+
+✅ **No merge conflicts** - Each contributor creates a unique file  
+✅ **Faster reviews** - Maintainers can merge multiple PRs simultaneously  
+✅ **Clear validation** - Automated checks catch errors before review  
+✅ **Beginner-friendly** - Simple JSON format, no complex Git operations  
+
+### Troubleshooting
+
+#### "My JSON file has errors"
+
+Common issues:
+```json
+❌ Wrong:  { name: "John Doe" }           // Missing quotes around keys
+✅ Right:  { "name": "John Doe" }         // Proper JSON format
+
+❌ Wrong:  contributors/john.json with "github": "johndoe"
+✅ Right:  contributors/johndoe.json with "github": "johndoe"
+
+❌ Wrong:  "contributions": "code"        // Should be an array
+✅ Right:  "contributions": ["code"]      // Array format
+```
+
+#### "I see merge conflicts"
+
+With this new system, merge conflicts should be extremely rare! If you see them:
+1. Make sure you only modified YOUR contributor file
+2. Update your branch:
+   ```bash
+   git checkout main
+   git pull upstream main
+   git checkout feat/add-YOUR-USERNAME
+   git merge main
+   ```
+
+#### "My validation failed"
+
+Run the validation script locally:
+```bash
+npm run contributors:validate
+```
+
+This will show you exactly what's wrong with your file.
+
+### Need Help?
+
+- 💬 Ask in [GitHub Discussions](https://github.com/OpenSource-Communities/guestbook/discussions)
+- 📖 Read the [detailed contributor guide](https://github.com/OpenSource-Communities/guestbook/blob/main/docs/guides/contributor-guide.md)
+- 🐛 [Create an issue](https://github.com/OpenSource-Communities/guestbook/issues/new) if you find a bug
+
+---
 
 Congratulations on your first contribution! 🎉
 
 :::tip
 
-If you're ready for your next contribution, check out the [pizza-verse repository](https://github.com/open-sauced/pizza-verse) and follow the contribution guidelines.
+If you're ready for your next contribution, check out the [pizza-verse repository](https://github.com/OpenSource-Communities/pizza-verse) and follow the contribution guidelines.
 
 :::
 
@@ -528,38 +698,61 @@ When you notice merge conflicts in your pull request or if a maintainer asks you
 
 ### Merge Conflicts in the Guestbook Repository
 
-Since the primary purpose of the guestbook is to add your name to `.all-contributorsrc` and the `README.md` files, there is a high chance that you will encounter merge conflicts.
+**Good news!** The guestbook has been updated with a new conflict-free contribution system. Each contributor now creates their own unique JSON file in the `contributors/` directory, which means merge conflicts are extremely rare.
 
-The conflicts happen when maintainers have merged pull requests before yours while you're working on your changes or waiting for your pull request to be reviewed. And you need to resolve them before your pull request can be merged.
+If you followed the instructions correctly and only created your own `contributors/YOUR-USERNAME.json` file, you should not encounter any merge conflicts.
+
+However, if you do encounter conflicts (perhaps you edited other files by mistake), follow these steps:
 
 #### Resolving Merge Conflicts
 
 Before resolving merge conflicts, you must first [update your branches](#updating-branches). Then, follow these steps:
 
-1. In the `.all-contributorsrc` file:
-
-   - Click the "Accept Both Change" option on the top of your workspace in VS Code.
-   - Move your profile details to the end of the contributors' array and fix anything necessary.
-
-2. In the `README.md` file:
-
-   - Click the "Accept Incoming Change" option on the top of your workspace in VS Code for each conflict in this file.
-
-3. Run `npm run contributors:generate`.
-
-   You will now see that the all contributors badge has been incremented, and your profile is generated at the end of the contributors' list in the `README.md` file.
-
-4. Add and commit your changes.
+1. Check which files have conflicts:
 
    ```bash
-   git commit -am "Resolve merge conflicts"
+   git status
    ```
 
-5. Push your commits to your remote branch.
+2. If the conflict is in your contributor file (which should be rare):
+
+   - Open the file in VS Code
+   - Look for the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+   - Keep your changes (between `<<<<<<<` and `=======`)
+   - Remove the conflict markers and incoming changes
+
+3. If conflicts appear in other files that you didn't intend to modify:
+
+   - **Accept the incoming changes** - You should only be modifying your own contributor file
+   - Click the "Accept Incoming Change" option in VS Code
+
+4. After resolving conflicts, validate your file:
+
+   ```bash
+   npm run contributors:validate
+   ```
+
+5. Add and commit your changes:
+
+   ```bash
+   git add .
+   git commit -m "Resolve merge conflicts"
+   ```
+
+6. Push your commits to your remote branch:
 
    ```bash
    git push
    ```
+
+:::tip
+
+The new system is designed to prevent merge conflicts. If you're experiencing conflicts, double-check that you:
+- Only created ONE file: `contributors/YOUR-USERNAME.json`
+- Didn't edit README.md or .all-contributorsrc
+- Followed all instructions in the guide
+
+:::
 
 <hr/>
 
