@@ -50,3 +50,307 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   position: absolute;
   background-repeat: no-repeat;
 }
+
+/* ==========================================
+   MOBILE RESPONSIVE IMPROVEMENTS
+   ========================================== */
+
+/* Fix code block copy buttons for mobile */
+/* Make copy buttons always visible on mobile devices */
+@media (max-width: 996px) {
+  .clean-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Ensure the button group is always visible */
+  .code-block-with-language .button-group {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Make sure copy button is always visible */
+  .clean-btn[aria-label*="Copy"] {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+/* Alternative approach - target Docusaurus specific classes */
+@media (max-width: 996px) {
+  /* Target the copy button in code blocks */
+  .theme-code-block .clean-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Target button groups in code blocks */
+  .theme-code-block .button-group {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Ensure code block buttons are always visible on mobile */
+  .prism-code .clean-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+/* General Mobile Breakpoints */
+@media (max-width: 996px) {
+  /* Improve overall spacing on mobile */
+  .main-wrapper {
+    padding: 0 !important;
+  }
+  
+  /* Remove ALL padding from containers */
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Remove all horizontal padding from article */
+  article {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Add ONLY minimal padding to markdown content - force override */
+  .theme-doc-markdown.markdown {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  
+  /* Remove padding from ALL doc containers */
+  div[class*="docItemContainer"],
+  div[class*="docMainContainer"],
+  div[class*="docItemCol"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Target the main doc wrapper */
+  main[class*="docMainContainer"] {
+    padding: 0 !important;
+  }
+  
+  /* Remove row padding */
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* Image Responsiveness */
+@media (max-width: 996px) {
+  /* Make content images responsive */
+  .markdown img,
+  .theme-doc-markdown img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Responsive image containers */
+  .markdown > p > img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+/* Footer logo sizing on mobile – prevent oversized logo */
+@media (max-width: 996px) {
+  .footer .footer__logo img,
+  .footer .footer__logo {
+    max-width: 72px;
+    width: 72px;
+    height: auto;
+  }
+}
+
+/* Navigation Menu Improvements for Mobile */
+@media (max-width: 996px) {
+  /* Improve mobile menu button visibility */
+  .navbar__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Better mobile menu styling */
+  .navbar-sidebar {
+    width: 80vw;
+    max-width: 350px;
+  }
+  
+  /* Improve menu item spacing */
+  .navbar-sidebar .menu__list-item {
+    padding: 0.5rem 0;
+  }
+  
+  /* Better touch targets for mobile menu */
+  .navbar-sidebar .menu__link {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    min-height: 44px; /* Accessibility - minimum touch target */
+  }
+}
+
+/* Pagination (Prev/Next) – prevent cut off on mobile */
+@media (max-width: 996px) {
+  /* Add small horizontal padding to the whole block to keep cards inside viewport */
+  .pagination-nav {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  /* Remove extra margins that cause overflow when each item is 50% width */
+  .pagination-nav__link {
+    margin: 0;
+  }
+
+  /* Ensure box sizing doesn't overflow and keep a tiny gap */
+  .pagination-nav__item {
+    box-sizing: border-box;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+
+/* Table Responsiveness */
+@media (max-width: 996px) {
+  /* Make tables scrollable horizontally on mobile */
+  .markdown table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Ensure table cells have adequate padding */
+  .markdown table td,
+  .markdown table th {
+    min-width: 100px;
+    padding: 0.5rem;
+  }
+}
+
+/* Typography Improvements for Mobile */
+@media (max-width: 996px) {
+  /* Adjust heading sizes for mobile */
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  h3 {
+    font-size: 1.25rem !important;
+  }
+  
+  /* Better line height for readability */
+  .markdown p {
+    line-height: 1.7;
+  }
+  
+  /* Prevent text overflow */
+  .markdown {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+/* Sidebar Improvements for Mobile */
+@media (max-width: 996px) {
+  /* Ensure sidebar is fully usable on mobile */
+  .theme-doc-sidebar-container {
+    width: 100%;
+  }
+  
+  /* Better sidebar menu items */
+  .theme-doc-sidebar-menu {
+    padding: 1rem;
+  }
+  
+  /* Improve sidebar link spacing */
+  .menu__link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Button and Interactive Elements */
+@media (max-width: 996px) {
+  /* Ensure all buttons have adequate touch targets */
+  .button,
+  .clean-btn,
+  a.button {
+    min-height: 40px;
+    min-width: 40px;
+  }
+  
+  /* Add flex display to clean-btn for better layout */
+  .clean-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Better button spacing */
+  .button:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Admonitions (Tips, Notes, Warnings) on Mobile */
+@media (max-width: 996px) {
+  .admonition {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+  
+  .admonition-heading h5 {
+    font-size: 1rem;
+  }
+}
+
+/* Footer Improvements for Mobile */
+@media (max-width: 996px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+  
+  .footer__links {
+    padding-left: 0;
+  }
+  
+  .footer__col {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+@media (max-width: 996px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Prevent content from overflowing */
+  .main-wrapper {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure all containers respect viewport */
+  * {
+    max-width: 100%;
+  }
+  
+  /* Allow specific elements to exceed if needed */
+  html, body, .main-wrapper, .container {
+    max-width: none;
+  }
+}
