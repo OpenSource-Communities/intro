@@ -171,9 +171,9 @@ You can filter your Contributor Insight Page by All Contributors, Active Contrib
 
 ![list graph](../_assets/images/list-graph.png)
 
-##### Highlights Dashboard
+##### Staying Informed About Contributor Activity
 
-The Highlights dashboard gives you a list of the highlights that the contributors listed on your page have created. This is a great way to see what other contributors are up to and to show them support.
+To stay informed about what your contributors are up to and show them support, consider following their activity on GitHub, engaging with their social media posts about contributions, or setting up notifications for their pull requests and issues. You can also acknowledge their work in release notes, README acknowledgments, or community shout-outs.
 
 :::tip
 

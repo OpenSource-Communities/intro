@@ -15,10 +15,10 @@ const config = {
 	favicon: "img/favicon.png",
 
 	// Set the production url of your site here
-	url: "https://opensauced.pizza",
+	url: "https://osscommunities.com",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/learn/",
+	baseUrl: "/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
@@ -27,6 +27,11 @@ const config = {
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
+
+	// Client modules - scripts that run on the client side
+	clientModules: [
+		require.resolve('./src/js/mobileWordWrap.js'),
+	],
 
 	// Even if you don't use internationalization, you can use this field to set
 	// useful metadata like html lang. For example, if your site is Chinese, you
@@ -60,6 +65,12 @@ const config = {
 		({
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
+			metadata: [
+				{
+					name: "viewport",
+					content: "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+				},
+			],
 			navbar: {
 				title: "Open Source Education Path",
 				logo: {
@@ -78,6 +89,11 @@ const config = {
 						sidebarId: "becomingAMaintainer",
 						position: "left",
 						label: "Becoming a Maintainer",
+					},
+					{
+						to: "/progress",
+						label: "My Progress",
+						position: "right",
 					},
 					{
 						href: "https://github.com/OpenSource-Communities/intro",
