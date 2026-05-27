@@ -20,7 +20,7 @@ Throughout this course, we've covered a range of topics designed to help you und
 
 - **[How to Contribute to Open Source](how-to-contribute-to-open-source.md)**: We discussed the process of finding projects to work on, submitting contributions, onboarding to new projects, and what happens after your contribution is submitted.
 
-- **[The Secret Sauce](the-secret-sauce.md)**: We shared strategies for getting started with open source contributions, gaining traction in your contributions, and developing your open source resume using OpenSauced.
+- **[The Secret Sauce](the-secret-sauce.md)**: We shared strategies for getting started with open source contributions, gaining traction in your contributions, and developing your open source resume using modern tools and platforms.
 
 - **[Types of Open Source Contributions](types-of-contributions.md)**: We shared the coding and non-coding types of contributions in open source, along with examples.
 
