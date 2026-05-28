@@ -31,7 +31,7 @@ The open source community is a diverse, global network of developers, enthusiast
 
 4. **Give back to the community**: Contributing to open source projects is a way to give back to the community that has provided you with valuable knowledge and resources. By sharing your skills and expertise, you can help support the continued growth and success of the open source movement.
 
-## Access to Skills
+## Skill Development
 
 Contributing to open source projects can help you develop a wide range of technical and non-technical skills that are highly valued in the job market. As an open source contributor, you'll have the opportunity to:
 
