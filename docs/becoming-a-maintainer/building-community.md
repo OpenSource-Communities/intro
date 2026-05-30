@@ -91,11 +91,11 @@ Some of your contributors may have skills that can be useful to promote your pro
 
 #### Managing Issues
 
-Issue management involves identifying, analyzing, and prioritizing bug issues and feature requests during development. You can create a triage team and encourage your community to help you triage and prioritize the issues in your repositories. You want to equip them with a clear guide on managing issues like what we have at OpenSauced in our [Triage Guide](https://opensauced.pizza/docs/contributing/triage-guide/). You can also read [this article](https://dev.to/opensauced/collaborate-conquer-grow-mastering-the-art-of-issue-management-for-open-source-projects-49gi) to learn more about issue management.
+Issue management involves identifying, analyzing, and prioritizing bug issues and feature requests during development. You can create a triage team and encourage your community to help you triage and prioritize the issues in your repositories. You want to equip them with a clear guide on managing issues like what we have at OpenSauced in our [Triage Guide](https://github.com/open-sauced/docs/blob/main/docs/contributing/triage-guide.md). You can also read [this article](https://dev.to/opensauced/collaborate-conquer-grow-mastering-the-art-of-issue-management-for-open-source-projects-49gi) to learn more about issue management.
 
 #### Community Events and Hackathons
 
-At OpenSauced, we organize the [#100DaysOfOSS challenge](https://opensauced.pizza/docs/community/100-days-of-oss/) to encourage contributors of all technical backgrounds to immerse themselves in collaborative development and engage with a supportive community.
+At OpenSauced, we organize the [#100DaysOfOSS challenge](https://github.com/open-sauced/docs/blob/main/docs/community/100-days-of-oss.md) to encourage contributors of all technical backgrounds to immerse themselves in collaborative development and engage with a supportive community.
 
 Organizing community events and hackathons is one way to strengthen your community's collaboration and relationships. You can create a survey or poll to gather feedback on what events your community wants to see. Then, consider forming a committee or group of members interested in organizing the events and letting them take charge with your support. By allowing your members to get involved and contribute, you can increase the sense of community and belonging.
 
@@ -109,7 +109,7 @@ To foster the growth of these new talents, you can provide them with mentorship,
 
 ### Identify New Talents with OpenSauced
 
-You can utilize OpenSauced [Repository Insights](https://opensauced.pizza/docs/features/repo-insights/) and [Contributor Insights](https://opensauced.pizza/docs/features/contributor-insights/) features to identify new talents by tracking active project contributors.
+You can utilize OpenSauced [Repository Insights](https://github.com/open-sauced/docs/blob/main/docs/features/repo-insights.md) and [Contributor Insights](https://github.com/open-sauced/docs/blob/main/docs/features/contributor-insights.md) features to identify new talents by tracking active project contributors.
 
 #### 1. Using Repository Insights
 

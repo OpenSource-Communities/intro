@@ -46,7 +46,7 @@ The best way to test your guide is by setting up the project locally using your 
 
 The installation guide is best placed at the top of your project's README file, as it is the most accessible file for your contributors.
 
-Another good place would be in the CONTRIBUTING file. Besides providing guidelines about contributing to your project, this file can include installation setup, testing, linting, workflows, etc. You can place the installation instructions towards the top or bottom of your CONTRIBUTING file. You can take a look at [OpenSauced Contributing Guidelines](https://opensauced.pizza/docs/contributing/introduction-to-contributing/) as an inspiration.
+Another good place would be in the CONTRIBUTING file. Besides providing guidelines about contributing to your project, this file can include installation setup, testing, linting, workflows, etc. You can place the installation instructions towards the top or bottom of your CONTRIBUTING file. You can take a look at [OpenSauced Contributing Guidelines](https://github.com/open-sauced/docs/blob/main/docs/contributing/introduction-to-contributing.md) as an inspiration.
 
 If your project is on the larger side, consider having a separate documentation site and dedicating a section for installation there. You can use documentation site generators like [Docusaurus](https://docusaurus.io/), [Starlight](https://starlight.astro.build/), or [docsify](https://docsify.js.org/#/).
 

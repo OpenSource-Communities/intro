@@ -78,6 +78,6 @@ To learn more about using OpenSauced to build your open source project, check ou
 
 ---
 
-We hope you find this course informative and useful! If you have any questions or feedback, please don't hesitate to open an issue or reach out to us in the [Community](https://github.com/orgs/open-sauced/discussions).
+We hope you find this course informative and useful! If you have any questions or feedback, please don't hesitate to open an issue or reach out to us in the [Community](https://github.com/OpenSource-Communities/intro/discussions).
 
 Happy learning and contributing!

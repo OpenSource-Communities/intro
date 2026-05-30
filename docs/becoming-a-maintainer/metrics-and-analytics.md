@@ -62,11 +62,11 @@ A great way to make data-driven decisions about your project is to create a Work
 
 ## Creating a Workspace for Your Project with OpenSauced
 
-An OpenSauced [Workspace](https://opensauced.pizza/docs/features/workspaces/) serves as your project's command center, where you can learn more about your project and share it with others. This section guides you through creating and optimizing a Workspace to manage your project efficiently.
+An OpenSauced [Workspace](https://github.com/open-sauced/docs/blob/main/docs/features/workspaces.md) serves as your project's command center, where you can learn more about your project and share it with others. This section guides you through creating and optimizing a Workspace to manage your project efficiently.
 
 To create a Workspace:
 
-1. Log in to your [OpenSauced account](https://app.opensauced.pizza/). Once you're there, click the "Workspace" on the top bar, and you should see your personal workspace.
+1. Log in to your [OpenSauced account](https://github.com/open-sauced/app). Once you're there, click the "Workspace" on the top bar, and you should see your personal workspace.
 2. Click on the "Edit" button. You'll be prompted to name your workspace and add repositories.
 3. Add your project's repository.
 4. Click "Create Workspace" to create your Workspace.
@@ -85,7 +85,7 @@ You can customize the time period for these metrics by selecting 7 days, 30 days
 
 :::
 
-If you want to benchmark your project against other similar projects or if you'd like to create a list of repositories for inspiration, you can create a [Repository Insight](https://opensauced.pizza/docs/features/repo-insights/) in your Workspace.
+If you want to benchmark your project against other similar projects or if you'd like to create a list of repositories for inspiration, you can create a [Repository Insight](https://github.com/open-sauced/docs/blob/main/docs/features/repo-insights.md) in your Workspace.
 
 ### Creating a New Repository Insight Page
 
@@ -103,7 +103,7 @@ This dashboard allows you to view more detailed information on each repository, 
 
 :::tip
 
-To learn and understand more about the data provided, see [Understanding Repository Insights Data](https://opensauced.pizza/docs/maintainers/understanding-repo-insights/).
+To learn and understand more about the data provided, see [Understanding Repository Insights Data](https://github.com/open-sauced/docs/blob/main/docs/maintainers/understanding-repo-insights.md).
 
 :::
 
@@ -113,7 +113,7 @@ To learn and understand more about the data provided, see [Understanding Reposit
 
 The Contributors dashboard allows you to view more detailed information on each contributor, including their activity levels, the number of repositories they contributed to, the date of their last contribution, their most used language, their time zone, the number of contributions, and their activity stats over the last 30 days.
 
-You can select and add your contributors to a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/) to learn more about them.
+You can select and add your contributors to a [Contributor Insight Page](https://github.com/open-sauced/docs/blob/main/docs/features/contributor-insights.md) to learn more about them.
 
 ##### Activity Dashboard
 
@@ -177,7 +177,7 @@ To stay informed about what your contributors are up to and show them support, c
 
 :::tip
 
-To learn and understand more about the data provided, see [Understanding Contributor Insights Data](https://opensauced.pizza/docs/maintainers/understanding-contribs-insights/).
+To learn and understand more about the data provided, see [Understanding Contributor Insights Data](https://github.com/open-sauced/docs/blob/main/docs/maintainers/understanding-contrib-insights.md).
 
 :::
 

@@ -108,7 +108,7 @@ The need for specialized attention in specific areas might arise as your project
 
 It is certainly possible that there's no contributor with the right skills and passion to take on a specific role. In those cases, you might need to look outside your existing community. Reach out to other projects or communities that might have individuals with the necessary expertise.
 
-One way to look for potential maintainers is to create a [Repository Insight Page](https://opensauced.pizza/docs/features/repo-insights/) with projects with a similar tech stack. This will allow you to see who contributes to those projects regularly, their most used languages, and more. From there, you can narrow your search to individuals who are already familiar with your project's stack and have a proven track record of contributions by adding them to a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/). Contributor Insights allows you to see more about where they're contributing, their timezone, activity level, and more.
+One way to look for potential maintainers is to create a [Repository Insight Page](https://github.com/open-sauced/docs/blob/main/docs/features/repo-insights.md) with projects with a similar tech stack. This will allow you to see who contributes to those projects regularly, their most used languages, and more. From there, you can narrow your search to individuals who are already familiar with your project's stack and have a proven track record of contributions by adding them to a [Contributor Insight Page](https://github.com/open-sauced/docs/blob/main/docs/features/repo-insights.md). Contributor Insights allows you to see more about where they're contributing, their timezone, activity level, and more.
 
 #### Creating a Repository and a Contributor Insight Page
 
@@ -142,11 +142,11 @@ Here are some things to consider:
 - **Goals:** Clearly define the project's goals and how the team members can contribute. This will help them to understand how they can contribute to the project's success.
 - **Timeline:** Set clear expectations for the timeline. This will help them understand what to do and the deadlines.
 
-One way to onboard your new team members is to have clear guidelines and include them in your documentation. If you need an idea for creating one, you can look at the [OpenSauced Community Maintainers Guidelines](https://opensauced.pizza/docs/contributing/opensauced-maintainers-guide/community-maintainers-guide/) or read [this blog post](https://dev.to/opensauced/the-missing-piece-why-your-project-needs-a-maintainer-onboarding-process-np0).
+One way to onboard your new team members is to have clear guidelines and include them in your documentation. If you need an idea for creating one, you can look at the [OpenSauced Community Maintainers Guidelines](https://github.com/open-sauced/docs/blob/main/docs/contributing/opensauced-maintainers-guide/community-maintainers-guide.md) or read [this blog post](https://github.com/open-sauced/docs/blob/main/docs/contributing/opensauced-maintainers-guide/community-maintainers-guide.md).
 
 ## Keeping Track of Your Team
 
-As your team grows, it's important to keep track of your team's participation and contributions. Depending on the number of people on your team, consider creating a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/) to keep track of your team's contributions. This will allow you to see who is contributing to your project and how often, and it will help you identify when it's time to remove someone from your team.
+As your team grows, it's important to keep track of your team's participation and contributions. Depending on the number of people on your team, consider creating a [Contributor Insight Page](https://github.com/open-sauced/docs/blob/main/docs/features/contributor-insights.md) to keep track of your team's contributions. This will allow you to see who is contributing to your project and how often, and it will help you identify when it's time to remove someone from your team.
 
 ![Team sync GIF](../_assets/gifs/team-sync.gif)
 
