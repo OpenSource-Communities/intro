@@ -207,6 +207,11 @@ export default function CourseProgress() {
                 <div className={styles.courseTitle}>{course.title}</div>
                 <div className={styles.progressBarContainer}>
                   <div 
+                    role="progressbar"
+                    aria-valuenow={Math.round(courseProgress)}
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label={`Progress: ${Math.round(courseProgress)}%`}
                     className={styles.progressBar}
                     style={{ width: `${courseProgress}%` }}
                   />
@@ -245,6 +250,11 @@ export default function CourseProgress() {
           </div>
           <div className={styles.progressBarContainer}>
             <div 
+              role="progressbar"
+              aria-valuenow={Math.round(progress)}
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-label={`Total Progress: ${Math.round(progress)}%`}
               className={clsx(styles.progressBar, styles.mainProgressBar)}
               style={{ width: `${progress}%` }}
             />
@@ -273,6 +283,11 @@ export default function CourseProgress() {
           </div>
           <div className={styles.progressBarFull}>
             <div 
+              role="progressbar"
+              aria-valuenow={Math.round(progress)}
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-label={`Overall Course Progress: ${Math.round(progress)}%`}
               className={styles.progressBarFill}
               style={{ width: `${progress}%` }}
             />
