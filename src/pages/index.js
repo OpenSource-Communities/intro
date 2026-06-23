@@ -42,6 +42,15 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+            <div className={styles.card}>
+              <div className={styles.cardContent}>
+                <h3> Contribute to This Course</h3>
+                <p>Did you know this project itself is open source? Learn by contributing to the very platform where you're learning about open source. Help us improve the course by fixing bugs, adding features, translating content, and improving documentation.</p>
+                <Link className={styles.cardLink} to="/contribute">
+                  Learn How to Contribute
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </main>
