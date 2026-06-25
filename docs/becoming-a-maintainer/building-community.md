@@ -107,19 +107,17 @@ By building a core group of community members, you can ensure that your project 
 
 To foster the growth of these new talents, you can provide them with mentorship, feedback, and opportunities for leadership roles within the project. Investing in these contributors can build a solid and sustainable community to help your project thrive over the long term.
 
-### Identify New Talents with OpenSauced
+### Identify New Talents Using GitHub
 
-You can utilize OpenSauced [Repository Insights](https://opensauced.pizza/docs/features/repo-insights/) and [Contributor Insights](https://opensauced.pizza/docs/features/contributor-insights/) features to identify new talents by tracking active project contributors.
+GitHub provides several built-in tools to help identify contributors who consistently make meaningful contributions to your project. Reviewing repository activity over time can help you recognize contributors who may be ready to take on greater responsibilities.
 
-#### 1. Using Repository Insights
+#### 1. Using GitHub Repository Insights
 
-You can list the projects you maintain on a Repository Insights Page. This feature allows you to monitor your projects' activity and identify contributors who actively contribute to and impact them.
+GitHub's **Insights → Contributors** and **Insights → Pulse** pages provide an overview of repository activity and contributor participation. Reviewing pull requests, issues, and discussions can help you identify contributors who consistently submit high-quality work, collaborate effectively, and remain active over time.
 
-You can find more information about your contributors in the Contributors dashboard. It allows you to view their activity level, the date of their last contribution, and the number of contributions. It also gives you information on their time zone and the languages they use most. Learn more about Repository Insights for maintainers and how to create one on [OpenSauced Docs](https://opensauced.pizza/docs/maintainers/maintainers-guide-to-open-sauced/#repository-insights-connecting-your-repositories).
+#### 2. Reviewing Contributor Activity
 
-#### 2. Using Contributor Insights
-
-After identifying potential new talents for your projects, you can select and add them to the list of a new or existing Contributor Insights Page. This feature enables you to monitor and analyze your contributors' activity levels and contributions more deeply, such as tracking the number of commits and pull requests they have made. You can read more about Contributor Insights for maintainers and how to create one on [OpenSauced Docs](https://opensauced.pizza/docs/maintainers/maintainers-guide-to-open-sauced/#contributor-insights-connecting-with-contributors).
+After identifying promising contributors within your repository, you can review their broader open source activity using **Contributor.info**. This provides additional context about their public contributions across repositories and can complement GitHub's native repository insights when evaluating potential maintainers or long-term collaborators.
 
 ## Conclusion
 
