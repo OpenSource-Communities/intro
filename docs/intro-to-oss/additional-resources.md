@@ -21,6 +21,9 @@ On this page, you'll find resources to help you learn more about contributing to
 
 - [Open Source Friday](https://opensourcefriday.com/) by GitHub: A global movement that encourages individuals and organizations to contribute to open source every Friday. The website provides resources and guides on how to get started in open source and find projects to contribute to.
 
+
+- [Contribute to This Project](https://github.com/Syknapse/Contribute-To-This-Project): A friendly project designed specifically to help beginners learn the GitHub workflow and open source contribution practices.
+
 ## Blog Posts
 
 - [Beyond Content Creation: How Open Source Contributions Can Help You Get Noticed](https://dev.to/opensauced/beyond-content-creation-how-open-source-contributions-can-help-you-get-noticed-4l5n)
