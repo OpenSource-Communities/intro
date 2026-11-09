@@ -1,0 +1,110 @@
+.heroBanner {
+  background: #000; /* Black background */
+  color: #fff;
+  padding: 4rem 1rem; /* Adjusted for smaller screens */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh; /* Ensure there's enough space for the content */
+  flex-direction: column; /* Ensure column layout on smaller screens */
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  padding: 0 2rem; /* Add padding to ensure content doesn't touch the edges */
+}
+
+.heroTitleOS {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #e74c3c, #e67e22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.heroSubtitle {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  color: #fff;
+}
+
+.main {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensure column layout on smaller screens */
+  flex: 1 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px; /* Limit the width of the card container */
+  width: 100%;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%; /* card content takes the full height */
+}
+
+.cardIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #000b05;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.cardLink {
+  margin-top: auto; /* Push the button to the bottom */
+  background: linear-gradient(to right, #e74c3c, #e67e22);
+  border-radius: 50px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background 0.3s;
+  text-align: center;
+  display: inline-block;
+}
+
+.cardLink:hover {
+  background: #e74c3c; /* Use the darkest color in the gradient */
+  color: #fff; /* Keep the text white */
+}

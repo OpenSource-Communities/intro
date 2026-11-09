@@ -1,0 +1,20 @@
+name: Maintainer Course Action
+
+on:
+  pull_request_target:
+    types:
+      - opened
+
+permissions:
+  pull-requests: write
+
+jobs:
+  intro_course_contributor:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Post comment for course contributors
+      if: contains(github.event.pull_request.title, 'adds repo to guestbook')
+      run: |
+        PR_COMMENT="Congratulations on completing the Becoming a Maintainer Course with your contribution to this repository, @${{ github.actor }}! We'd love to continue to amplify your project. Here are some ways to do that: Create a [highlight](https://app.opensauced.pizza/feed) of your contribution to our guestbook — [more info here](https://opensauced.pizza/docs/features/highlights/) — and share it with us in our [Becoming a Maintainer Course discussion](https://github.com/orgs/open-sauced/discussions/35)!"
+        curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -X POST -d "{\"body\":\"$PR_COMMENT\"}" "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>OpenSauced</title>
+		<link rel="icon" href="./_assets/images/slice-Gradient-White.png" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="Description" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+			title="docsify-darklight-theme"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="./styles/custom.css" />
+	</head>
+	<body>
+		<div id="app"></div>
+		<script>
+			window.$docsify = {
+				name: "",
+				repo: "open-sauced/intro",
+				themeColor: "#25c2a0",
+				loadSidebar: "_sidebar.md",
+				loadNavbar: "_navbar.md",
+				mergeNavbar: true,
+				alias: {
+					// courses sidebar
+					"/.*/intro-to-oss/_sidebar.md": "/intro-to-oss/_sidebar.md",
+					"/.*/becoming-a-maintainer/_sidebar.md":
+						"/becoming-a-maintainer/_sidebar.md",
+					// courses navbar
+					"/.*/intro-to-oss/_navbar.md": "/intro-to-oss/_navbar.md",
+					"/.*/becoming-a-maintainer/_navbar.md":
+						"/becoming-a-maintainer/_navbar.md",
+				},
+				relativePath: true,
+				subMaxLevel: 3,
+				search: "auto",
+				search: {
+					maxAge: 86400000,
+					paths: "auto",
+					placeholder: "Search",
+					noData: "No Results found!",
+					depth: 6,
+					hideOtherSidebarContent: false,
+				},
+				darklightTheme: {
+					siteFont: "Inter",
+					bodyFontSize: "17px",
+					dark: {
+						background: "#2F3239",
+						textColor: "#FFFDFA",
+						accent: "#25c2a0",
+						highlightColor: "#25c2a0",
+						codeBackgroundColor: "#050505",
+						borderColor: "#25c2a0",
+						sidebarSublink: "#ffffff",
+						blockQuoteColor: "#FFE4AD",
+						coverBackground: "#11181C",
+					},
+					light: {
+						background: "#FFFFFF",
+						accent: "#205d3b",
+						highlightColor: "#205d3b",
+						borderColor: "#205d3b",
+						sidebarSublink: "#141414",
+						codeBackgroundColor: "#F2F2F2",
+						blockQuoteColor: "#3B555E",
+						coverBackground: "#FFFFFF",
+					},
+				},
+				auto2top: true,
+			}
+		</script>
+		<!-- Docsify v4 -->
+		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+		<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+		<script
+			src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+			type="text/javascript"
+		></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+	
+	</body>
+</html>

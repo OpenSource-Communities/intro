@@ -1,0 +1,321 @@
+.courseTracker {
+  display: flex;
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  transition: background-color var(--ifm-transition-fast) ease;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 280px;
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  flex-direction: column;
+  background: var(--ifm-background-surface-color);
+  position: relative;
+  z-index: 1;
+}
+
+.sidebarHeader {
+  padding: 1.5rem 1.25rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.themeToggle {
+  background: none;
+  border: none;
+  color: var(--ifm-color-emphasis-600);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.themeToggle:hover {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-primary);
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.courseList {
+  padding: 1rem;
+  flex: 0 0 auto;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.courseButton {
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: var(--ifm-color-emphasis-100);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.courseButton:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.courseButton.activeCourse {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+}
+
+.courseTitle {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.progressBarContainer {
+  height: 4px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.progressBar {
+  height: 100%;
+  background: var(--ifm-color-primary);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+  text-align: right;
+}
+
+.chapterList {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.chapterButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  margin-bottom: 0.25rem;
+  border-radius: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--ifm-font-color-base);
+  transition: background-color 0.2s ease;
+}
+
+.chapterButton:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.chapterNumber {
+  font-family: var(--ifm-font-family-monospace);
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.8rem;
+  min-width: 2rem;
+}
+
+.chapterTitle {
+  flex: 1;
+  text-align: left;
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.checkIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--ifm-color-success);
+  flex-shrink: 0;
+}
+
+.progressSummary {
+  padding: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+}
+
+/* Content area styles */
+.content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.subtitle {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.progressCard {
+  background: linear-gradient(
+    to right,
+    var(--ifm-color-success-lightest),
+    var(--ifm-color-info-lightest)
+  );
+  border: 1px solid var(--ifm-color-success-light);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.progressHeader h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-heading-color);
+}
+
+.progressHeader p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.progressPercentage {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--ifm-color-success);
+}
+
+.progressBarFull {
+  height: 8px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.progressBarFill {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--ifm-color-success),
+    var(--ifm-color-info)
+  );
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.overview h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.overview h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
+.overview p {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-font-color-base);
+}
+
+.courseLink {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+}
+
+.featureList {
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.featureList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
+}
+
+/* Responsive styles */
+@media (max-width: 996px) {
+  .courseTracker {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+    max-height: 50vh;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+}
+
+/* Dark mode overrides */
+[data-theme='dark'] .progressCard {
+  background: linear-gradient(
+    to right,
+    var(--ifm-color-success-darkest),
+    var(--ifm-color-info-darkest)
+  );
+  border-color: var(--ifm-color-success-darker);
+}
+
+[data-theme='dark'] .progressBarFill {
+  background: linear-gradient(
+    to right,
+    var(--ifm-color-success-light),
+    var(--ifm-color-info-light)
+  );
+}
+
+[data-theme='dark'] .courseButton {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .courseButton:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .courseButton.activeCourse {
+  background: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .chapterButton {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .chapterButton:hover {
+  background: var(--ifm-color-emphasis-200);
+}
