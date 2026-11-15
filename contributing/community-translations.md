@@ -11,3 +11,5 @@ We are grateful for the contributions of the community in translating our [Open 
 <!--
 - [Language](link to your forked repository) - maintained by [GitHub username 1](link to the GitHub profile), [GitHub username 2](link to the GitHub profile)
 -->
+
+- [Bengali (বাংলা)](https://github.com/RuHRabin/intro) - maintained by [RuHRabin](https://github.com/RuHRabin)
