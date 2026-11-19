@@ -348,7 +348,7 @@ Every project is unique. Each has its own pull request template structure and re
 
   You can find the issue number right after the title, as shown below.
 
-  ![issue number](../_assets/images/issue-number.png)
+  ![GitHub issue page showing the issue number](../_assets/images/issue-number.png)
 
   :::info
 
@@ -398,7 +398,7 @@ You'll need to have these tools downloaded and installed on your local machine:
    - Add a title, e.g., `Feature: Add @GITHUB-USERNAME as a contributor`. <br/> Change "@GITHUB-USERNAME" to your GitHub username.
    - Complete the form. Read the instructions under each input label and fill in the textareas using the example shown in the screenshot below with the red line.
 
-     ![guestbook issue form](../_assets/images/guestbook-issue-form.png)
+     ![GitHub issue form for a guestbook entry](../_assets/images/guestbook-issue-form.png)
 
    - Click the "Submit new issue" button.
 

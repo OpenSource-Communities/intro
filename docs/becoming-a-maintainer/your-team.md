@@ -75,7 +75,7 @@ To access your team's permissions, navigate to your team's page on GitHub and cl
 
 Here's what it will look like in GitHub:
 
-![team permissions](../_assets/images/org-permissions.png)
+![GitHub organization team permissions settings](../_assets/images/org-permissions.png)
 
 ### Additional Permissions to Consider
 
@@ -96,7 +96,7 @@ Here's what it will look like in GitHub:
 
 You can see some of the options here:
 
-![Team permissions GIF](../_assets/gifs/org-permissions.gif)
+![GitHub organization team permissions workflow](../_assets/gifs/org-permissions.gif)
 
 ## Expanding the Horizons: Enlisting Additional Maintainers
 
@@ -119,7 +119,7 @@ There are two ways to add repositories to your Repository Insight Page:
 1. **Sync GitHub organization**. Syncing your GitHub organization is a good idea if you want a unified view of your project activities and the list of contributors to your project.
 2. **Add individual repositories**. Adding individual repositories is a good idea if you want to look at similar repositories to recruit team members.
 
-![Sync team GIF](../_assets/gifs/team-sync-insights.gif)
+![OpenSauced team synchronization insights](../_assets/gifs/team-sync-insights.gif)
 
 From there, you can create a list of contributors you're interested in learning more about or connecting with by selecting them from the Contributors dashboard and creating a new Contributor Insight Page.
 
@@ -148,7 +148,7 @@ One way to onboard your new team members is to have clear guidelines and include
 
 As your team grows, it's important to keep track of your team's participation and contributions. Depending on the number of people on your team, consider creating a [Contributor Insight Page](https://opensauced.pizza/docs/features/contributor-insights/) to keep track of your team's contributions. This will allow you to see who is contributing to your project and how often, and it will help you identify when it's time to remove someone from your team.
 
-![Team sync GIF](../_assets/gifs/team-sync.gif)
+![OpenSauced team synchronization workflow](../_assets/gifs/team-sync.gif)
 
 ## Saying Farewell: Handling Team Departures
 
