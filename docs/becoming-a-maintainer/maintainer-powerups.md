@@ -108,7 +108,7 @@ Sometimes, you repeatedly write the same reply to issues or pull requests. Clear
 
 Read the GitHub documentation for complete instructions about how to [create saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/creating-a-saved-reply).
 
-![Saved replies gif](../_assets/gifs/saved-replies.gif)
+![GitHub saved replies workflow](../_assets/gifs/saved-replies.gif)
 
 ## Code Owners
 

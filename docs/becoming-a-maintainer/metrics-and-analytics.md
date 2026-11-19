@@ -71,7 +71,7 @@ To create a Workspace:
 3. Add your project's repository.
 4. Click "Create Workspace" to create your Workspace.
 
-![Workspaces](../_assets/images/workspace.png)
+![OpenSauced workspaces dashboard](../_assets/images/workspace.png)
 
 Within the Repositories dashboard, you can view the following metrics, which are shown over a period of thirty days by default:
 
@@ -107,7 +107,7 @@ To learn and understand more about the data provided, see [Understanding Reposit
 
 :::
 
-![repositories dashboard](../_assets/images/repos-insights.png)
+![OpenSauced repositories insights dashboard](../_assets/images/repos-insights.png)
 
 ##### Contributors Dashboard
 
@@ -121,7 +121,7 @@ The Activity dashboard shows a graph of the last time each contributor created t
 
 You can use the information in this dashboard to help you learn about their engagement and general interests. It will be helpful if you want to collaborate with them or consider recruiting a maintainer for your project.
 
-![activity graph](../_assets/images/activity-repos-insights.png)
+![OpenSauced repository activity graph](../_assets/images/activity-repos-insights.png)
 
 You can create a Contributor Insight Page to track your contributors and ensure you're growing a healthy open source community.
 
@@ -151,7 +151,7 @@ To create a new Contributor Insight Page:
 3. Give your page a name.
 4. Add contributors to your page by searching for their GitHub username, syncing your GitHub Team, or importing your GitHub Following.
 
-   ![team sync gif](../_assets/gifs/team-sync.gif)
+   ![OpenSauced team synchronization workflow](../_assets/gifs/team-sync.gif)
 
 #### Using Your Contributor Insight Page
 
@@ -169,7 +169,7 @@ The Activity dashboard gives you a graph view with more detailed information on 
 
 You can filter your Contributor Insight Page by All Contributors, Active Contributors, New Contributors, and Alumni Contributors.
 
-![list graph](../_assets/images/list-graph.png)
+![OpenSauced contributor list graph](../_assets/images/list-graph.png)
 
 ##### Staying Informed About Contributor Activity
 
